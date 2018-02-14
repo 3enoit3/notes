@@ -1,5 +1,12 @@
 # C++
 ## Misc
+### [Namespace](http://en.cppreference.com/w/cpp/language/namespace)
+```c++
+using namespace ns_name; // using directive
+using ns_name::name; // using declaration
+namespace alias_name = ns_name; // alias
+```
+
 ### [Linkage](http://en.cppreference.com/w/cpp/language/storage_duration#Linkage)
 * If a name (which denotes an object, reference, function, type, template, namespace, or value) has **linkage**: it refers to **the same entity** in **different scopes**.
 If not, then **several instances of the entity are generated**.
