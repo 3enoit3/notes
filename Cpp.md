@@ -1,7 +1,7 @@
 # Tools
 ## Online compilers
-* Boost: https://wandbox.org/
-* Assembly: https://godbolt.org/
+* Boost: https://wandbox.org
+* Assembly: https://godbolt.org
 * Performance: http://quick-bench.com
 # Templates
 ## Samples
