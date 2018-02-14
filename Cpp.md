@@ -10,9 +10,8 @@ namespace alias_name = ns_name; // alias
   * only brings in names whose declarations have **already been seen**
   * all restrictions on regular declarations of the same names, hiding, and overloading rules apply
 * **using directive**
-  * brings in **all names** (even if the namespace is extended after the directive)
+  * brings in **all names** (even if the namespace is extended after the directive); transitive
   * does not add any names to the declarative region
-  * transitive
 
 ### [Linkage](http://en.cppreference.com/w/cpp/language/storage_duration#Linkage)
 * If a name (which denotes an object, reference, function, type, template, namespace, or value) has **linkage**: it refers to **the same entity** in **different scopes**.
