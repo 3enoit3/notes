@@ -6,11 +6,9 @@ using ns_name::name; // using declaration
 using namespace ns_name; // using directive
 namespace alias_name = ns_name; // alias
 ```
-* using declaration
-  * only brings in names whose declarations have **already been seen**
+* **using declaration**: only brings in names whose declarations have **already been seen**
   * all restrictions on regular declarations of the same names, hiding, and overloading rules apply
-* using directive
-  * brings in **all names** (even if the namespace is extended after the directive)
+* **using directive**: brings in **all names** (even if the namespace is extended after the directive)
   * does not add any names to the declarative region
   * transitive
 ### [Linkage](http://en.cppreference.com/w/cpp/language/storage_duration#Linkage)
