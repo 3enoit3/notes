@@ -56,8 +56,8 @@ std::string output = regex_replace(str, rex, new_value);
 
 // Split
 sregex_token_iterator it(str.begin(), str.end(), rex), end;
-for( ; it != end; ++cur ) {
-  std::cout << "token: " << *cur << '\n';
+for(; it != end; ++cur ) {
+  std::cout << "token: " << *it << '\n';
 };
 ```
 * Regex format
