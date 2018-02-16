@@ -20,7 +20,7 @@ boost::optional<int> f() { return boost::none; }
 ```c++
 #include <boost/variant.hpp>
 
-boost::variant<int, std::string> a; // == 0 (default constructor of first bounded type)
+boost::variant<int, std::string> v; // == 0 (default constructor of first bounded type)
 boost::variant<int, std::string> v("hello world");
 
 class my_visitor : public boost::static_visitor<int> {
