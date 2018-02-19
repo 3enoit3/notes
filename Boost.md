@@ -68,4 +68,13 @@ for(; it != end; ++cur ) {
   * [Iterators](http://www.boost.org/doc/libs/1_66_0/doc/html/xpressive/user_s_guide.html#boost_xpressive.user_s_guide.quick_start.know_your_iterator_type)
   * [Matches](http://www.boost.org/doc/libs/1_66_0/doc/html/xpressive/user_s_guide.html#boost_xpressive.user_s_guide.accessing_results.match_results)
 
+## Thread
+```c++
+#include <boost/thread/thread.hpp> 
+
+// Sleep
+#include <boost/chrono.hpp>
+boost::this_thread::sleep_for(boost::chrono::milliseconds(100));
+```
+
 ## Bind
