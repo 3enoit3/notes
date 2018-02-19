@@ -8,6 +8,7 @@ boost::optional<int> a;
 
 a.set(1);
 a.get();
+a.value_or(2); // get_value_or (deprecated)
 
 if(a) {}
 if(a == boost::none) {}
