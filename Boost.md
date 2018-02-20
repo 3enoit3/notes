@@ -78,3 +78,14 @@ boost::this_thread::sleep_for( boost::chrono::milliseconds(100) );
 ```
 
 ## Bind
+
+## Assert
+```c++
+#include <boost/assert.hpp>
+
+BOOST_ASSERT(expr); // or BOOST_VERIFY(expr) to always evaluate expr (for side effects)
+BOOST_ASSERT_MSG(expr,msg); // or BOOST_VERIFY_MSG
+
+#define BOOST_DISABLE_ASSERTS // disable asserts
+#ifndef BOOST_ASSERT_IS_VOID // are asserts enabled
+```
