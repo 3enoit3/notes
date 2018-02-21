@@ -50,6 +50,9 @@ template<class T> template<class U> void X<T>::f<U>();
   * Don't add specialization to **existing** function base template: **use a plain old function**.
   * Prefer to write **new** function base template as a single function template (that should never be specialized or overloaded) calling ***a class template containing a static function** with the same signature.
 
+## Misc
+Rule of 5: https://stackoverflow.com/a/48865077
+
 # Tools
 ## Online compilers
 * Boost: https://wandbox.org
