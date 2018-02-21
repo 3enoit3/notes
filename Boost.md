@@ -91,6 +91,6 @@ BOOST_ASSERT_MSG(expr, msg); // or BOOST_VERIFY_MSG
 // Static
 #include <boost/static_assert.hpp>
 
-BOOST_STATIC_ASSERT(expr)
-BOOST_STATIC_ASSERT_MSG(expr, msg)
+BOOST_STATIC_ASSERT(expr);
+BOOST_STATIC_ASSERT_MSG(expr, msg);
 ```
