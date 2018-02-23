@@ -19,7 +19,7 @@ boost::optional<int> f() { return boost::none; }
 
 ||Boost|C++ 11|
 |-|-|-|
-|include|`#include <boost/optional.hpp>`|`#include <optional>`|
+|header|`#include <boost/optional.hpp>`|`#include <optional>`|
 |namespace|`boost::optional<int> a;`|`std::optional<int> a;`|
 
 ## Variant
@@ -42,7 +42,7 @@ std::cout << v << '\n';
 
 ||Boost|C++ 11|
 |-|-|-|
-|include|`#include <boost/variant.hpp>`|`#include <variant>`|
+|header|`#include <boost/variant.hpp>`|`#include <variant>`|
 |namespace|`boost::variant<int, std::string> v;`|`std::variant<int, std::string> v;`|
 
 ## Xpressive
