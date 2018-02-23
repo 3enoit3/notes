@@ -1,11 +1,6 @@
 # Boost
 
 ## Optional
-||Boost|C++ 11|
-|-|-|-|
-|include|`#include <boost/optional.hpp>`|`#include <optional>`|
-|namespace|`boost::optional<int> a;`|`std::optional<int> a;`|
-
 ```c++
 #include <boost/optional.hpp>
 
@@ -22,12 +17,12 @@ boost::optional<int> f() { return 1; }
 boost::optional<int> f() { return boost::none; }
 ```
 
-## Variant
 ||Boost|C++ 11|
 |-|-|-|
-|include|`#include <boost/variant.hpp>`|`#include <variant>`|
-|namespace|`boost::variant<int, std::string> v;`|`std::variant<int, std::string> v;`|
+|include|`#include <boost/optional.hpp>`|`#include <optional>`|
+|namespace|`boost::optional<int> a;`|`std::optional<int> a;`|
 
+## Variant
 ```c++
 #include <boost/variant.hpp>
 
@@ -44,6 +39,11 @@ int result = boost::apply_visitor(my_visitor(), v);
 std::string& str = boost::get<std::string>(v);
 std::cout << v << '\n';
 ```
+
+||Boost|C++ 11|
+|-|-|-|
+|include|`#include <boost/variant.hpp>`|`#include <variant>`|
+|namespace|`boost::variant<int, std::string> v;`|`std::variant<int, std::string> v;`|
 
 ## Xpressive
 ```c++
