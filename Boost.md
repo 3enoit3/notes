@@ -1,13 +1,18 @@
 # Boost
 
 ## Optional
+||Boost|C++ 11|
+|-|-|-|
+|include|`#include <boost/optional.hpp>`|`#include <optional>`|
+|namespace|`boost::optional<int> a;`|`std::optional<int> a;`|
+
 ```c++
 #include <boost/optional.hpp>
 
 boost::optional<int> a;
 
 a.set(1);
-a.get();
+a.value(); // get
 a.value_or(2); // get_value_or (deprecated)
 
 if(a) {}
@@ -18,6 +23,11 @@ boost::optional<int> f() { return boost::none; }
 ```
 
 ## Variant
+||Boost|C++ 11|
+|-|-|-|
+|include|`#include <boost/variant.hpp>`|`#include <variant>`|
+|namespace|`boost::variant<int, std::string> v;`|`std::variant<int, std::string> v;`|
+
 ```c++
 #include <boost/variant.hpp>
 
