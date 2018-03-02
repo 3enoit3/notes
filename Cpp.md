@@ -55,8 +55,10 @@ Rule of 5: https://stackoverflow.com/a/48865077
 
 ## Idioms
 * [More C++ idioms](https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms)
+
 |Idiom|Description|
-|Address Of|Workaround overloaded operator&|
+|-|-|
+|Address Of|Workaround overloaded operator|
 |Algebraic Hierarchy|Computations with numbers|
 |Attach by Initialization|Use global and static objects to run code before main|
 |Attorney-Client|Control access with a Key whose constructor is private|
@@ -148,7 +150,6 @@ Rule of 5: https://stackoverflow.com/a/48865077
 |Type Selection||
 |Virtual Constructor||
 |Virtual Friend Function||
-|||
 
 # Tools
 ## Online compilers
