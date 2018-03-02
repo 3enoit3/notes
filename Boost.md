@@ -111,6 +111,9 @@ BOOST_STATIC_ASSERT_MSG(expr, msg);
 
 boost::shared_ptr<int> p( new int(42) );
 ```
+* [Naive mental model for shared_ptr<T>](https://youtu.be/lkgszkPnV8g?t=1210):
+  * T* px *[thread unsafe]*
+  * shared_count pn *[thread safe]*
 * Multiple threads can simultaneously:
   * **"read"** (const operations) a **same** shared_ptr instance
   * **"write"** (mutable operations: operator=, reset, destructor) **different** shared_ptr instances (even sharing the same reference count underneath)
