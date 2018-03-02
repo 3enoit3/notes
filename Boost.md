@@ -104,3 +104,14 @@ BOOST_ASSERT_MSG(expr, msg); // or BOOST_VERIFY_MSG
 BOOST_STATIC_ASSERT(expr);
 BOOST_STATIC_ASSERT_MSG(expr, msg);
 ```
+
+## Shared_ptr
+```c++
+#include <boost/shared_ptr.hpp>
+
+shared_ptr<int> p( new int(42) );
+```
+* Multiple threads can simultaneously:
+  * **"read"** (const operations) a **same** shared_ptr instance
+  * **"write"** (mutable operations: operator=, reset, destructor) **different** shared_ptr instances (even sharing the same reference count underneath)
+
