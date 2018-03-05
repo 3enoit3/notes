@@ -22,12 +22,19 @@ namespace alias_name = ns_name; // alias
 </details>
  
 ### [Linkage](http://en.cppreference.com/w/cpp/language/storage_duration#Linkage)
-* If a name (which denotes an object, reference, function, type, template, namespace, or value) has **linkage**: it refers to **the same entity** in **different scopes**.
-If not, then **several instances of the entity are generated**.
-* Linkages:
-  * **no linkage**: from the scope it is in *(ex: local classes, functions, typedefs, enumerations, and enumerators...)*
-  * **internal linkage**: from all scopes in the current translation unit *(ex: static variables and functions...)*
-  * **external linkage**: from the scopes in the other translation units, including language linkage like C *(the rest, ex: functions, extern variables...)*
+<details>
+<summary>More...</summary>
+<ul>
+ <li> If a name (which denotes an object, reference, function, type, template, namespace, or value) has <b>linkage</b>: it refers to <b>the same entity</b> in <b>different scopes</b>. 
+If not, then <b>several instances of the entity are generated</b>. </li>
+ <li> Linkages: </li>
+ <ul>
+  <li> <b>no linkage</b>: from the scope it is in <i>(ex: local classes, functions, typedefs, enumerations, and enumerators...)</i> </li>
+  <li> <b>internal linkage</b>: from all scopes in the current translation unit <i>(ex: static variables and functions...)</i> </li>
+  <li> <b>external linkage</b>: from the scopes in the other translation units, including language linkage like C <i>(the rest, ex: functions, extern variables...)</i> </li>
+ </ul>
+</ul>
+</details>
 
 ## Templates
 ### Samples
@@ -54,9 +61,17 @@ template<class U> void X::f<U>();
 template<class T> template<class U> void X<T>::f<U>();
 ```
 ### Notes
-* [Why Not Specialize Function Templates?](http://www.gotw.ca/publications/mill17.htm)
-  * Don't add specialization to **existing** function base template: **use a plain old function**.
-  * Prefer to write **new** function base template as a single function template (that should never be specialized or overloaded) calling ***a class template containing a static function** with the same signature.
+<ul>
+ <li>
+  <details>
+   <summary> <a href="http://www.gotw.ca/publications/mill17.htm">Why Not Specialize Function Templates?</a> </summary>
+   <ul>
+    <li> Don't add specialization to <b>existing</b> function base template: <b>use a plain old function</b>. </li>
+    <li> Prefer to write <b>new</b> function base template as a single function template (that should never be specialized or overloaded) calling <b>a class template containing a static function</b> with the same signature. </li>
+   </ul>
+  </details>
+ </li>
+</ul>
 
 ## Misc
 Rule of 5: https://stackoverflow.com/a/48865077
