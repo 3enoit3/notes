@@ -7,7 +7,7 @@ using namespace ns_name; // using directive
 namespace alias_name = ns_name; // alias
 ```
 <details>
-<summary>More...</summary>
+<summary>Details</summary>
 <ul>
  <li> <b>using declaration</b> </li>
  <ul>
@@ -66,7 +66,7 @@ Rule of 5: https://stackoverflow.com/a/48865077
 
 |Idiom|Description|
 |-|-|
-|Address Of|Workaround overloaded operator|
+|Address Of|Workaround overloaded operator&|
 |Algebraic Hierarchy|Computations with numbers|
 |Attach by Initialization|Use global and static objects to run code before main|
 |Attorney-Client|Control access with a Key whose constructor is private|
