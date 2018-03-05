@@ -7,7 +7,7 @@ using namespace ns_name; // using directive
 namespace alias_name = ns_name; // alias
 ```
 <details>
-<summary>Details</summary>
+<summary>More...</summary>
 <ul>
  <li> <b>using declaration</b> </li>
  <ul>
