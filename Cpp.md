@@ -110,8 +110,7 @@ string b = f(a); // copy construction
   * NRVO doesn’t always happen in debug mode
 
 ## Misc
-# Rule of 5: https://stackoverflow.com/a/48865077
-
+### Rule of 5: https://stackoverflow.com/a/48865077
 
 ## Idioms
 * [More C++ idioms](https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms)
