@@ -85,7 +85,7 @@ std::string a = f(); // no copy construction
 std::string f(std::string s) {
   return s;
 }
-std::string a = f(std::string(value)); // only if the parameter is a temporary, no copy construction
+std::string a = f(std::string(value)); // no copy construction if the parameter is a temporary
 std::string b = f(a); // copy construction
 
 // Named Return Value Optimization
