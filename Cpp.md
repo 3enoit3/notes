@@ -73,8 +73,35 @@ template<class T> template<class U> void X<T>::f<U>();
  </li>
 </ul>
 
+# RVO/NRVO
+```c++
+// Return Value Optimization (anonymous)
+std::string f() {
+  if (...) return std::string("value"); // only temporary
+  else return std::string("another_value");
+}
+std::string a = f(); // no copy construction
+
+std::string f(std::string s) {
+  return s;
+}
+std::string a = f(std::string(value)); // only if the parameter is a temporary, no copy construction
+std::string b = f(a); // copy construction
+
+// Named Return Value Optimization
+std::string f() {
+  std::string s("value");
+  ...
+  return s; // one local variable
+}
+std::string a = f(); // no copy construction
+```
+* RVO works across compilation modules and DLL/library boundaries.
+* NRVO doesn’t always happen in debug mode
+
 ## Misc
-Rule of 5: https://stackoverflow.com/a/48865077
+# Rule of 5: https://stackoverflow.com/a/48865077
+
 
 ## Idioms
 * [More C++ idioms](https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms)
