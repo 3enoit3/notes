@@ -1,5 +1,11 @@
 # C++
 ## Misc
+### Generalities
+* Parameter vs Argument
+```c++
+void f(int parameter) {}
+f(argument);
+```
 ### [Namespace](http://en.cppreference.com/w/cpp/language/namespace)
 ```c++
 using ns_name::name; // using declaration
@@ -73,31 +79,35 @@ template<class T> template<class U> void X<T>::f<U>();
  </li>
 </ul>
 
-# RVO/NRVO
+## RVO/NRVO
+* As return value
 ```c++
 // Return Value Optimization (anonymous)
-std::string f() {
-  if (...) return std::string("value"); // only temporary
-  else return std::string("another_value");
+string f() {
+  if (...) return string("value"); // only temporary
+  else return string("another_value");
 }
-std::string a = f(); // no copy construction
-
-std::string f(std::string s) {
-  return s;
-}
-std::string a = f(std::string(value)); // no copy construction if the parameter is a temporary
-std::string b = f(a); // copy construction
+string a = f(); // no copy construction
 
 // Named Return Value Optimization
-std::string f() {
-  std::string s("value");
+string f() {
+  string s("value");
   ...
   return s; // one local variable
 }
-std::string a = f(); // no copy construction
+string a = f(); // no copy construction
 ```
-* RVO works across compilation modules and DLL/library boundaries.
-* NRVO doesn’t always happen in debug mode
+* As argument
+```c++
+string f(string s) {
+  return s;
+}
+string a = f( string(value) ); // no copy construction if the argument is a temporary
+string b = f(a); // copy construction
+```
+* Notes
+  * RVO works across compilation modules and DLL/library boundaries.
+  * NRVO doesn’t always happen in debug mode
 
 ## Misc
 # Rule of 5: https://stackoverflow.com/a/48865077
