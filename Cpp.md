@@ -13,11 +13,12 @@ f(argument);
   * **Little-endian**: MSB **last** (typical use: Intel microprocessors)
 
 * Encoding
-  * **UTF-8**: encoding algorithm (from binary to number)
-    * encoding: number -> binary
+  * **Unicode**: character set (from number to symbol) - **abstract form of the text**
+  * **UTF-8**: encoding (from binary to number)
     * decoding: binary -> number
-  * **Unicode**: character set (from number to symbol)
- 
+    * encoding: number -> binary
+  * **ASCII**: encoding, where binary == number
+  
 ### [Namespace](http://en.cppreference.com/w/cpp/language/namespace)
 ```c++
 using ns_name::name; // using declaration
