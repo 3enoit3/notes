@@ -25,35 +25,20 @@ using ns_name::name; // using declaration
 using namespace ns_name; // using directive
 namespace alias_name = ns_name; // alias
 ```
-<details>
-<summary>More...</summary>
-<ul>
- <li> <b>using declaration</b> </li>
- <ul>
-  <li> only brings in names whose declarations have <b>already been seen</b> </li>
-  <li> all restrictions on regular declarations of the same names, hiding, and overloading rules apply </li>
- </ul>
- <li> <b>using directive</b> </li>
- <ul>
-  <li> brings in <b>all names</b> (even if the namespace is extended after the directive); transitive </li>
-  <li> does not add any names to the declarative region </li>
-</ul>
-</details>
+* **using declaration**
+  * only brings in names whose declarations have **already been seen**
+  * all restrictions on regular declarations of the same names, hiding, and overloading rules apply
+* **using directive**
+  * brings in **all names** (even if the namespace is extended after the directive); transitive
+  * does not add any names to the declarative region
  
 ### [Linkage](http://en.cppreference.com/w/cpp/language/storage_duration#Linkage)
-<details>
-<summary>More...</summary>
-<ul>
- <li> If a name (which denotes an object, reference, function, type, template, namespace, or value) has <b>linkage</b>: it refers to <b>the same entity</b> in <b>different scopes</b>. 
-If not, then <b>several instances of the entity are generated</b>. </li>
- <li> Linkages: </li>
- <ul>
-  <li> <b>no linkage</b>: from the scope it is in <i>(ex: local classes, functions, typedefs, enumerations, and enumerators...)</i> </li>
-  <li> <b>internal linkage</b>: from all scopes in the current translation unit <i>(ex: static variables and functions...)</i> </li>
-  <li> <b>external linkage</b>: from the scopes in the other translation units, including language linkage like C <i>(the rest, ex: functions, extern variables...)</i> </li>
- </ul>
-</ul>
-</details>
+* If a name (which denotes an object, reference, function, type, template, namespace, or value) has **linkage**: it refers to **the same entity** in **different scopes**.
+If not, then **several instances of the entity are generated**.
+* Linkages:
+  * **no linkage**: from the scope it is in *(ex: local classes, functions, typedefs, enumerations, and enumerators...)*
+  * **internal linkage**: from all scopes in the current translation unit *(ex: static variables and functions...)*
+  * **external linkage**: from the scopes in the other translation units, including language linkage like C *(the rest, ex: functions, extern variables...)*
 
 ## Templates
 ### Samples
@@ -80,17 +65,9 @@ template<class U> void X::f<U>();
 template<class T> template<class U> void X<T>::f<U>();
 ```
 ### Notes
-<ul>
- <li>
-  <details>
-   <summary> <a href="http://www.gotw.ca/publications/mill17.htm">Why Not Specialize Function Templates?</a> </summary>
-   <ul>
-    <li> Don't add specialization to <b>existing</b> function base template: <b>use a plain old function</b>. </li>
-    <li> Prefer to write <b>new</b> function base template as a single function template (that should never be specialized or overloaded) calling <b>a class template containing a static function</b> with the same signature. </li>
-   </ul>
-  </details>
- </li>
-</ul>
+* [Why Not Specialize Function Templates?](http://www.gotw.ca/publications/mill17.htm)
+  * Don't add specialization to **existing** function base template: **use a plain old function**.
+  * Prefer to write **new** function base template as a single function template (that should never be specialized or overloaded) calling ***a class template containing a static function** with the same signature.
 
 ## RVO/NRVO
 * As return value
