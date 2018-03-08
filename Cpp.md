@@ -6,6 +6,11 @@
 void f(int parameter) {}
 f(argument);
 ```
+* Endianness
+  * **Most Significant Bit**: greatest bit position (typical use: sign bit for signed binary number)
+  * **Big-endian**: MSB **first** (typical use: TCP, UDP - aka **network byte order**)
+  * **Little-endian**: MSB **last** (typical use: Intel microprocessors)
+
 ### [Namespace](http://en.cppreference.com/w/cpp/language/namespace)
 ```c++
 using ns_name::name; // using declaration
