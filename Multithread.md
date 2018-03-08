@@ -17,5 +17,5 @@ memory_order_seq_cst|all three||a single total order exists in which all threads
 * CPU
 ## Ordering
 * **Happens-before**: A happens-before B if the execution behaves as-if all the memory effects of A are visible to the thread executing B _before_ executing it
-* **Synhronize-with**: 
+* **Synchronize-with**: 
 * **Compiler barrier**:
