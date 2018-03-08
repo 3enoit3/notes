@@ -12,8 +12,10 @@ f(argument);
   * **Big-endian**: MSB **first** (typical use: TCP, UDP - aka **network byte order**)
   * **Little-endian**: MSB **last** (typical use: Intel microprocessors)
 
-* UTF-8
-  * **UTF-8**: encoding (from binary to number)
+* Encoding
+  * **UTF-8**: encoding algorithm (from binary to number)
+    * encoding: number -> binary
+    * decoding: binary -> number
   * **Unicode**: character set (from number to symbol)
  
 ### [Namespace](http://en.cppreference.com/w/cpp/language/namespace)
