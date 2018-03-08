@@ -1,4 +1,5 @@
-# Memory order
+# Multithread
+## Memory order
 |Type|Operation|This thread|Other threads|
 |-|-|-|-|
 memory_order_relaxed|any|no synchronization/ordering constraints imposed on other rw, only this operation's atomicity is guaranteed|no |
@@ -8,6 +9,13 @@ memory_order_release|store|no reads/writes can be reordered **after** this store
 memory_order_acq_rel|read-modify-write|no reads or writes can be reordered **before or after** this store|All writes in other threads that release the same atomic variable are visible before the modification and the modification is visible in other threads that acquire the same atomic variable.|
 memory_order_seq_cst|all three||a single total order exists in which all threads observe all modifications in the same order|
 
-# Use
+## Use
 * memory_order_relaxed: std::shared_ptr (note that decrementing the shared_ptr counters requires acquire-release synchronization with the destructor)
 * 
+## Reordering
+* Compiler
+* CPU
+## Ordering
+* **Happens-before**: A happens-before B if the execution behaves as-if all the memory effects of A are visible to the thread executing B _before_ executing it
+* **Synhronize-with**: 
+* **Compiler barrier**:
