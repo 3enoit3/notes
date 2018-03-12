@@ -7,6 +7,18 @@ void f(int parameter) {}
 f(argument);
 ```
 
+* Overload vs Override
+```c++
+class Base {
+  virtual int f(int i);
+  char f(char c); // overload: same name
+};
+
+class Derived : public Base {
+  int f(int i); // override: same signature (name, cv-qualifiers, parameter types) + virtual base
+};
+```
+
 * Endianness
   * **Most Significant Bit**: greatest bit position (typical use: sign bit for signed binary number)
   * **Big-endian**: MSB **first** (typical use: TCP, UDP - aka **network byte order**)
