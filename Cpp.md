@@ -21,8 +21,8 @@ class Derived : public Base {
 
 * Endianness
   * **Most Significant Bit**: greatest bit position (typical use: sign bit for signed binary number)
-  * **Big-endian**: MSB **first** (typical use: TCP, UDP - aka **network byte order**)
-  * **Little-endian**: MSB **last** (typical use: Intel microprocessors)
+  * **Big-endian**: byte with MSB **first** (typical use: TCP, UDP - aka **network byte order**)
+  * **Little-endian**: byte with MSB **last** (typical use: Intel microprocessors)
 
 * Encoding
   * **Unicode**: character set (from number to symbol) - **abstract form of the text**
