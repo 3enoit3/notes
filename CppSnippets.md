@@ -4,10 +4,10 @@
 ```c++
 #include <fstream>
 
-std::ofstream myfile;
-myfile.open ("my_file_path", std::fstream::app);
-myfile << "data\n";
-myfile.close();
+std::ofstream file;
+file.open ("path", std::fstream::app);
+file << "data\n";
+file.close();
 ```
 
 ## Time
