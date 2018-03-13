@@ -212,6 +212,8 @@ string b = f(a); // copy construction
 |Virtual Constructor||
 |Virtual Friend Function||
 
+* [Factory with variable number of parameters](http://www.bfilipek.com/2016/03/nice-c-factory-implementation-2.html)
+
 # Tools
 ## Online compilers
 * Boost: https://wandbox.org
