@@ -59,8 +59,8 @@ struct B : public A { int b_; };
 B b;
 
 A a = b; // slicing: A copy-constructor applied on B
-A* a = &b; // ok
-A& a = b; // ok
+A* pa = &b; // ok
+A& ra = b; // ok
 ```
 
 ## Templates
