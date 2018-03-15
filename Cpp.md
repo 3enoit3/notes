@@ -52,6 +52,17 @@ If not, then **several instances of the entity are generated**.
   * **internal linkage**: from all scopes in the current translation unit *(ex: static variables and functions...)*
   * **external linkage**: from the scopes in the other translation units, including language linkage like C *(the rest, ex: functions, extern variables...)*
 
+### Slicing
+```c++
+struct A { int a_; };
+struct B : public A { int b_; }; 
+B b;
+
+A a = b; // slicing: A copy-constructor applied on B
+A* a = &b; // ok
+A& a = b; // ok
+```
+
 ## Templates
 ### Samples
 ```c++
