@@ -9,6 +9,7 @@
 ## Time
 ### Get a human readable timestamp
 * Before C++ 11 [time formats](http://en.cppreference.com/w/cpp/chrono/c/strftime)
+* Python [time formats](https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior)
 
 |pre C++ 11|
 |-|
