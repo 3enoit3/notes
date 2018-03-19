@@ -3,7 +3,7 @@
 ## GOF Patterns
 ### Creational
 * **Factory Method**: delegate creations to a child
-* **Abstract Factory**: delegate family creations to a class: *one method for each objet*
+* **Abstract Factory**: delegate family creations to a class: *one method per objet*
 * **Builder**: delegate complex creations to a class: *one method for several objects*
 * **Prototype**: delegate creations to an object of the same class: *clone()*
 * **Singleton**: delegate the single creation to a class: *instance()*
