@@ -1,5 +1,9 @@
 # Software design
-## SOLID
+## Rules
+### SOLID
+### Law of Demeter
+Principle of least knowledge: only talk to your immediate friends.
+
 ## GOF Patterns
 ### Creational
 * **Factory Method**: delegate creations to a child
