@@ -8,10 +8,10 @@ Principle of least knowledge: only talk to your immediate friends.
 ### Creational
 *Delegates creations*
 * **Factory Method**: delegates creations to a child
-* **Abstract Factory**: delegates family creations to a class: *one method per objet*
-* **Builder**: delegates complex creations to a class: *one method for several objects*
-* **Prototype**: delegates creations to an object of the same class: *clone()*
-* **Singleton**: delegates the single creation to a class: *instance()*
+* **Abstract Factory**: delegates family creations to a class: **one method per objet**
+* **Builder**: delegates complex creations to a class: **one method for several objects**
+* **Prototype**: delegates creations to an object of the same class: **clone()**
+* **Singleton**: delegates the single creation to a class: **instance()**
 
 ### Structural
 *Decouples interface and implementation*
