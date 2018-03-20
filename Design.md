@@ -37,5 +37,5 @@ Principle of least knowledge: only talk to your immediate friends.
 * **Observer**: is a publish/subscribe pattern which allows a number of observer objects to see an event.
 * **State**: allows an object to alter its behavior when its internal state changes.
 * **Strategy**: allows one of a family of algorithms to be selected on-the-fly at runtime.
-* **Template Method**: defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.
+* **Template Method**: delegates part of a process to a child
 * **Visitor**: separates an algorithm from an object structure by moving the hierarchy of methods into one object.
