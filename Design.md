@@ -17,8 +17,8 @@ Principle of least knowledge: only talk to your immediate friends.
 *Decouples interface and implementation*
 * Same interface:
   * **Bridge**: new implementation
-  * **Decorator**: same implementation but add new features
-  * **Proxy**: same implementation but control when/how to access it
+  * **Decorator**: same implementation, but add new features
+  * **Proxy**: same implementation, but control when/how to access it
   * **Flyweight**: merged implementations (intrisic)
 
 * Same implementation:
@@ -28,11 +28,11 @@ Principle of least knowledge: only talk to your immediate friends.
 
 ### Behavioral
 *Decouples sender and receiver*
-* **Iterator**: the sender knows all receivers but ignores their actual organization
-* **Visitor**: the sender does not know receivers but know how to process them
 * **Command**: the sender knows the receiver, but an external invoker decides when to process the request
-* **Chain Of Responsibility**: the sender only knows the first receiver, which can stop or forward the request to a successor
-* **Observer**: the sender does not know the receivers
+* **Iterator**: the sender knows all receivers, but ignores their actual organization
+* **Chain Of Responsibility**: the sender only knows the first receiver, which can stop or forward the request to its successor
+* **Visitor**: the sender does not know receivers, but know how to process them
+* **Observer**: the sender does not know receivers, but ? 
 * **Mediator**: the sender and the receiver do not know each other
 
 *Delegates behavior*
