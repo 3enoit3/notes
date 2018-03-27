@@ -30,7 +30,7 @@ Principle of least knowledge: only talk to your immediate friends.
 *Decouples sender and receiver*
 * **Iterator**: the sender knows all receivers but ignores their actual organization
 * **Visitor**: the sender does not know receivers but know how to process them
-* **Command**: the sender knows the receiver, but an invoker decides when to process the request
+* **Command**: the sender knows the receiver, but an external invoker decides when to process the request
 * **Chain Of Responsibility**: the sender only knows the first receiver, which can stop or forward the request to a successor
 * **Observer**: the sender does not know the receivers
 * **Mediator**: the sender and the receiver do not know each other
