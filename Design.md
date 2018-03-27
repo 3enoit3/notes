@@ -27,15 +27,19 @@ Principle of least knowledge: only talk to your immediate friends.
   * **Composite**: new interface which uniformly handles composites and inviduals
 
 ### Behavioral
+*Decouples sender and receiver*
+* **Iterator**: the sender knows all receivers but ignores their actual organization
+* **Visitor**: the sender does not know receivers but know how to process them
+* **Command**: the sender knows the receiver, but an invoker decides when to process the request
+* **Chain Of Responsibility**: the sender only knows the first receiver, which can stop or forward the request to a successor
+* **Observer**: the sender does not know the receivers
+* **Mediator**: the sender and the receiver do not know each other
 
-* **Chain Of Responsibility**: delegates commands to a chain of processing objects.
-* **Command**: creates objects which encapsulate actions and parameters.
-* **Interpreter**: implements a specialized language.
-* **Iterator**: accesses the elements of an object sequentially without exposing its underlying representation.
-* **Mediator**: allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
-* **Memento**: provides the ability to restore an object to its previous state (undo).
-* **Observer**: is a publish/subscribe pattern which allows a number of observer objects to see an event.
-* **State**: allows an object to alter its behavior when its internal state changes.
-* **Strategy**: allows one of a family of algorithms to be selected on-the-fly at runtime.
-* **Template Method**: delegates part of a process to a child
-* **Visitor**: separates an algorithm from an object structure by moving the hierarchy of methods into one object.
+*Delegates behavior*
+* **Strategy**/**Policy**: delegates algorithm to a class
+* **Template Method**: delegates part of an algorithm to a child
+* **State**: delegates event handling to a class
+
+*Misc*
+* **Memento**: captures the state of an object into an opaque class: only the object can access internal to restore its state
+* **Interpreter**: implements a specialized language
