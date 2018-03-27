@@ -41,5 +41,5 @@ Principle of least knowledge: only talk to your immediate friends.
 * **State**: delegates event handling to a class
 
 *Misc*
-* **Memento**: captures the state of an object into an opaque class: only the object can access internal to restore its state
+* **Memento**: captures the state of an object into an opaque class: only the object can access internals to restore its state
 * **Interpreter**: implements a specialized language
