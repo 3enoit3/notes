@@ -68,6 +68,19 @@ A* pa = &b; // ok
 A& ra = b; // ok
 ```
 
+## Forward declaration
+* function return value can be foward declared
+```c++
+struct A {
+    struct B;       // forward declaration
+    
+    B f() {         // the forward declaration of B is sufficient here
+        return B(); // the definition of B is needed here, but f body is only evaluated after the full declaration of A
+    }
+   
+    struct B {};    // definition
+};
+```
 ## Templates
 ### Samples
 ```c++
