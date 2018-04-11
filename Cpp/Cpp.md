@@ -31,7 +31,7 @@ class Derived : public Base {
     * encoding: number -> binary
   * **ASCII**: encoding, where binary == number
   
-  * Note: files might contain a header indicating the encoding (ex: UTF-16 files might start with FF FE for big endian, FE FF for little endian)
+  * *Note: files might contain a header indicating the encoding (ex: UTF-16 files might start with FF FE for big endian, FE FF for little endian)*
   
 ### [Namespace](http://en.cppreference.com/w/cpp/language/namespace)
 ```c++
