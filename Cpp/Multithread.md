@@ -1,4 +1,8 @@
 # Multithread
+## Misc
+* Spurious wakeup: a thread is awoken from its waiting state even though no thread signaled the condition variable 
+  * Possible reason: system lost track of signals (ex. scheduler blackout) -> wakes up waiting thread by security
+
 ## Memory order
 |Type|Operation|This thread|Other threads|
 |-|-|-|-|
@@ -19,3 +23,4 @@ memory_order_seq_cst|all three||a single total order exists in which all threads
 * **Happens-before**: A happens-before B if the execution behaves as-if all the memory effects of A are visible to the thread executing B _before_ executing it
 * **Synchronize-with**: 
 * **Compiler barrier**:
+
