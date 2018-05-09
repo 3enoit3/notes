@@ -38,6 +38,8 @@ class Derived : public Base {
 using ns_name::name; // using declaration
 using namespace ns_name; // using directive
 namespace alias_name = ns_name; // alias
+
+namespace { declarations } // unnamed namespace: scope to the end of the translation unit + internal linkage
 ```
 * **using declaration**
   * only brings in names whose declarations have **already been seen**
