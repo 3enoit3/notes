@@ -2,7 +2,7 @@
 ## Generalities
 * **Instruction Set Architecture (ISA)**: Describes hardware interface (ex: x86)
   * Machine code
-  * *Classification: Reduced Instruction Set Computer (RISC - ex: ARM) vs Complex Instruction Set Computer (CISC - ex: x86)
+  * *Classification: Reduced Instruction Set Computer (RISC - ex: ARM) vs Complex Instruction Set Computer (CISC - ex: x86)*
 * **Application Binary Interface (ABI)**: Describes machine code interface (ex: Linux Standard Base) 
   * OS ABI:
     * Processor instruction set (register file structure, stack organization, memory access types, ...) and basic data types (sizes, layouts, and alignments)
