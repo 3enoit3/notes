@@ -35,8 +35,12 @@ CPU time = Instruction count * CPI / Clock cycle
 * Instruction mix: dynamic frequency of instructions (affecting CPI)
 
 ## CPU
-**Stored-Program Concept**: instructions and data are stored in memory as numbers
-
+* **Stored-Program Concept**: instructions and data are stored in memory as numbers
+* Architecture
+  * Von Neumann: instructions and data are stored in the same memory system (accessed in turn)
+  * Harvard: instructions and data are stored in separated memory systems
+  * Modified Harvard: relaxed separation (most common type: separated in caches backed by a common address space)
+  
 ## OS
 * Memory
   * Addressing
