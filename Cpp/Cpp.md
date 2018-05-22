@@ -47,7 +47,15 @@ namespace { declarations } // unnamed namespace: scope to the end of the transla
 * **using directive**
   * brings in **all names** (even if the namespace is extended after the directive); transitive
   * does not add any names to the declarative region
- 
+
+### Typedef
+```c++
+typedef type alias; // or typedef type def;
+
+typedef A* PA;
+const PA pa; // is a constant pointer (A* const) and not a constant pointee (const A*)
+```
+
 ### [Linkage](http://en.cppreference.com/w/cpp/language/storage_duration#Linkage)
 * If a name (which denotes an object, reference, function, type, template, namespace, or value) has **linkage**: it refers to **the same entity** in **different scopes**.
 If not, then **several instances of the entity are generated**.
