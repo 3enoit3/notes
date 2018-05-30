@@ -61,7 +61,7 @@ const PA pa; // is a constant pointer (A* const) and not a constant pointee (con
 If not, then **several instances of the entity are generated**.
 * Linkages:
   * **no linkage**: from the scope it is in *(ex: local classes, functions, typedefs, enumerations, and enumerators...)*
-  * **internal linkage**: from all scopes in the current translation unit *(ex: static variables and functions...)*
+  * **internal linkage**: from all scopes in the current translation unit *(ex: static variables and functions, const variables...)*
   * **external linkage**: from the scopes in the other translation units, including language linkage like C *(the rest, ex: functions, extern variables...)*
 
 ### Lifetime
