@@ -24,3 +24,20 @@ memory_order_seq_cst|all three||a single total order exists in which all threads
 * **Synchronize-with**: 
 * **Compiler barrier**:
 
+# Threads
+## Interruption
+```c++
+another_thread.interrupt(); // non blocking
+another_thread.join();
+```
+* The interrupted thread will throw a **boost::thread_interrupted** exception when reaching the next:
+  * boost::thread: join(), timed_join()
+  * boost::this_thread: sleep(), interruption_point()
+  * boost::condition_variable/condition_variable_any: wait(), timed_wait()
+* It can be temporarily deactivated (*ex: to protect exception in destructors*):
+```c++
+boost::this_thread::disable_interruption di; // deactivate interruptions
+... // no exception on interruption points
+boost::this_thread::restore_interruption ri(di); // reactivate interruptions
+```
+
