@@ -41,3 +41,5 @@ boost::this_thread::disable_interruption di; // deactivate interruptions
 boost::this_thread::restore_interruption ri(di); // reactivate interruptions
 ```
 
+# Atomics
+## Lock
