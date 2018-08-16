@@ -37,6 +37,8 @@ public:
 int result = boost::apply_visitor(my_visitor(), v);
 
 std::string& str = boost::get<std::string>(v);
+bool is_string = boost::get<std::string>(&v) != 0;
+bool is_empty = v.empty();
 std::cout << v << '\n';
 ```
 
