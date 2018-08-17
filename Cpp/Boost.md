@@ -125,3 +125,19 @@ boost::shared_ptr<int> p( new int(42) );
 |-|-|-|
 |header|`#include <boost/shared_ptr.hpp>`|`#include <memory>`|
 |namespace|`boost::shared_ptr<int> p;`|`std::shared_ptr<int> p;`|
+
+## Function
+```c++
+// Function
+std::function<void(int)> f_function = print_num;
+std::function<void(int)> f_functor = PrintNum();
+std::function<void(const Foo&, int)> f_member = &Foo::print_num;
+std::function<void(int)> f_hidden_member = boost::bind(Foo::print_num, foo, _1);
+std::cout << f_function(1) << f_functor(1) << f_member(foo, 1) << f_hidden_member(1);
+
+// Curried
+std::function<void(int)> f_function = boost::bind(print_num, 1);
+std::function<void(const Foo&)> f_member = boost::bind(Foo::print_num, _1, 1);
+std::function<void(const Foo&)> f_hidden_member = boost::bind(Foo::print_num, foo, 1);
+std::cout << f_function() << f_member(foo) << f_hidden_member();
+```
