@@ -141,3 +141,18 @@ std::function<void(const Foo&)> f_member = boost::bind(Foo::print_num, _1, 1);
 std::function<void(const Foo&)> f_hidden_member = boost::bind(Foo::print_num, foo, 1);
 std::cout << f_function() << f_member(foo) << f_hidden_member();
 ```
+
+## Algorithms
+```c++ 
+// String searching
+boost::algorithm::boyer_moore<std::string::const_iterator> search(pattern.begin(), pattern.end());  // boyer_moore,  boyer_moore_horspool_search, knuth_morris_pratt
+bool found = search(str.begin(), str.end())) != str.end(); // str aka corpus
+
+// Sequence
+boost::algorithm::all_of(v.begin(), v.end(), isOdd) == true; // all_of, any_of, none_of, one_of + predicate
+boost::algorithm::all_of_equal(v.begin(), v.end(), 2) == true; // *_equal + value
+// other: is_sorted, is_partiotioned, equal, mismatch
+
+// Ceiling
+boost::algorithm::clamp(input_23, low_1, high_10) == 10;
+```
