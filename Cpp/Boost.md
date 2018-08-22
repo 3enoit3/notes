@@ -15,6 +15,8 @@ if(a == boost::none) {}
 
 boost::optional<int> f() { return 1; }
 boost::optional<int> f() { return boost::none; }
+
+a = boost::in_place<int>(1); // internally calls placement-new and directly passes the parameter to the constructor of T
 ```
 
 ||Boost|C++ 11|
