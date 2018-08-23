@@ -152,8 +152,6 @@ string b = f(a); // copy construction
   * RVO works across compilation modules and DLL/library boundaries.
   * NRVO doesn’t always happen in debug mode
 
-## Rules
-### Rule of 5: https://stackoverflow.com/a/48865077
 ## STL
 ### Streams
 ```c++
@@ -166,6 +164,10 @@ istream is; is >> str; // get(char)/getline/peek, read(bin), tellg/seekg
 // ostream, istream <- iostream <- fstream / stringstream
 ```
 
+## Concepts
+### Rule of 5: https://stackoverflow.com/a/48865077
+### Zero Cost Abstraction
+The runtime cost is the same as for a low level language implementation (generally C)
 # Tools
 ## Online compilers
 * Boost: https://wandbox.org
