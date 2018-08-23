@@ -80,7 +80,7 @@ A* pa = &b; // ok
 A& ra = b; // ok
 ```
 
-## Forward declaration
+### Forward declaration
 * function return value can be foward declared
 ```c++
 struct A {
@@ -93,8 +93,8 @@ struct A {
     struct B {};    // definition
 };
 ```
-## Templates
-### Samples
+### Templates
+#### Samples
 ```c++
 // Functions
 template<class T> void f(T); // base/primary template
@@ -117,12 +117,12 @@ template<class T> class X { template <class U> void f(U); }; // template class a
 template<class U> void X::f<U>();
 template<class T> template<class U> void X<T>::f<U>();
 ```
-### Notes
+#### Notes
 * [Why Not Specialize Function Templates?](http://www.gotw.ca/publications/mill17.htm)
   * Don't add specialization to **existing** function base template: **use a plain old function**.
   * Prefer to write **new** function base template as a single function template (that should never be specialized or overloaded) calling ***a class template containing a static function** with the same signature.
 
-## RVO/NRVO
+### RVO/NRVO
 * As return value
 ```c++
 // Return Value Optimization (anonymous)
@@ -152,8 +152,19 @@ string b = f(a); // copy construction
   * RVO works across compilation modules and DLL/library boundaries.
   * NRVO doesn’t always happen in debug mode
 
-## Misc
+## Rules
 ### Rule of 5: https://stackoverflow.com/a/48865077
+## STL
+### Streams
+```c++
+ostream os; os << "str"; // put(char), write(bin), tellp/seekp, flush
+istream is; is >> str; // get(char)/getline/peek, read(bin), tellg/seekg
+
+?fstream fs; fs.open("path"); // is_open/close
+?stringstream ss; ss.str("str"); // str()
+
+// ostream, istream <- iostream <- fstream / stringstream
+```
 
 # Tools
 ## Online compilers
