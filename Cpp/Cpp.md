@@ -166,7 +166,7 @@ istream is; is >> str; // get(char)/getline/peek, read(bin), tellg/seekg
 
 ## Concepts
 ### Rule of 5: https://stackoverflow.com/a/48865077
-### Zero Cost Abstraction
+### Zero-cost abstraction
 The runtime cost is the same as for a low level language implementation (generally C)
 # Tools
 ## Online compilers
