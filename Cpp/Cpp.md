@@ -172,7 +172,7 @@ http://matthewfl.com/2114/programming/cost-of-abstractions
 ### Modern C++
 According to https://arne-mertz.de/2018/08/modern-c-newest-standard/:
 * RAII
-* String typing
+* Strong typing
 * Compile time programming
 # Tools
 ## Online compilers
