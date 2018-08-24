@@ -164,12 +164,16 @@ istream is; is >> str; // get(char)/getline/peek, read(bin), tellg/seekg
 // ostream, istream <- iostream <- fstream / stringstream
 ```
 
-## Concepts
+## Interesting
 ### Rule of 5: https://stackoverflow.com/a/48865077
 ### Zero-cost abstraction
 The runtime cost is the same as for a low level language implementation (generally C).
 http://matthewfl.com/2114/programming/cost-of-abstractions
-
+### Modern C++
+* RAII
+* String typing
+* Compile time programming
+https://arne-mertz.de/2018/08/modern-c-newest-standard/
 # Tools
 ## Online compilers
 * Boost: https://wandbox.org
