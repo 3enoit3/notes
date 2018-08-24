@@ -170,10 +170,10 @@ istream is; is >> str; // get(char)/getline/peek, read(bin), tellg/seekg
 The runtime cost is the same as for a low level language implementation (generally C).
 http://matthewfl.com/2114/programming/cost-of-abstractions
 ### Modern C++
+According to https://arne-mertz.de/2018/08/modern-c-newest-standard/:
 * RAII
 * String typing
 * Compile time programming
-https://arne-mertz.de/2018/08/modern-c-newest-standard/
 # Tools
 ## Online compilers
 * Boost: https://wandbox.org
