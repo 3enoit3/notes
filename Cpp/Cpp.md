@@ -152,6 +152,22 @@ string b = f(a); // copy construction
   * RVO works across compilation modules and DLL/library boundaries.
   * NRVO doesn’t always happen in debug mode
 
+### CRTP (Curiously Recurring Template Pattern)
+https://www.fluentcpp.com/2017/05/12/curiously-recurring-template-pattern/
+```c++
+template <typename T> class Base {
+  void doSomethingWithDerived() {
+    T& derived_this = static_cast<T&>(*this);
+  }
+};
+ 
+class Derived : public Base<Derived> {
+};
+```
+* Usage
+  * Add functionality through mixin (ex: derived provides accessors, base provides logic)
+  * Static polymorphism (ex: derived+base provides accessors, base used as a generic parameter for functions)
+
 ## STL
 ### Streams
 ```c++
