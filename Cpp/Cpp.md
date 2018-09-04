@@ -63,6 +63,16 @@ If not, then **several instances of the entity are generated**.
   * **no linkage**: from the scope it is in *(ex: local classes, functions, typedefs, enumerations, and enumerators...)*
   * **internal linkage**: from all scopes in the current translation unit *(ex: static variables and functions, const variables...)*
   * **external linkage**: from the scopes in the other translation units, including language linkage like C *(the rest, ex: functions, extern variables...)*
+* Directives:
+  * **static**: defined in this translation units but cannot be used in others (**internal linkage**) - Linker will enforce it
+  * **extern**: used in this translation unit but don't complain if it isn't defined (**external linkage**) - Linker will sort it out
+  * **[inline](https://en.cppreference.com/w/cpp/language/inline)**: defined in multiple translation units (typical use: function definition in header) - Linker will make sure they all use a single instance of the variable/function.
+
+### [Inlining](https://stackoverflow.com/questions/10535667/does-it-make-any-sense-to-use-inline-keyword-with-templates/10536588#10536588)
+* Compiler **cannot inline** code if it does **not have the function definition**
+* Templates are inline by default, **except fully specialized function**: inline must be explicit for them
+* *Usually all private methods are inlined in maximally optimized code*
+* Inlining can be prevented: in GCC use __attribute __(( noinline )), and in Visual Studio use __declspec(noinline).
 
 ### Lifetime
 * Temporary objects
