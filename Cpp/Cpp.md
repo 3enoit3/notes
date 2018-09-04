@@ -131,6 +131,7 @@ template<class T> template<class U> void X<T>::f<U>();
 * Implicit instantiation
   * Not yet been explicitly specialized or explicitly instantiated
   * **Function**: when **its definition is required**.
+    * Implicitely inline, except fully specialized functions
   * **Class**: when **a completely-defined object type is required**, or when the completeness of the class type affects the semantics of the program.
     * **Member declaration**: when the **class is instantiated**
     * **Member definition**: when **required**, except unscoped enumerations / anonymous unions (when the class is instantiated) or static data-member (no instantiation).
