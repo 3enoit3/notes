@@ -69,7 +69,7 @@ If not, then **several instances of the entity are generated**.
   * **[inline](https://en.cppreference.com/w/cpp/language/inline)**: defined in multiple translation units (typical use: function definition in header) - Linker will make sure they all use a single instance of the variable/function.
 
 ### [Inlining](https://stackoverflow.com/questions/10535667/does-it-make-any-sense-to-use-inline-keyword-with-templates/10536588#10536588)
-* Compiler **cannot inline** code if it does **not have the function definition**
+* Compiler **cannot inline** code if it **cannot access the function definition**
 * Templates are inline by default, **except fully specialized function**: inline must be explicit for them
 * *Usually all private methods are inlined in maximally optimized code*
 * Inlining can be prevented: in GCC use __attribute __(( noinline )), and in Visual Studio use __declspec(noinline).
