@@ -118,7 +118,7 @@ template<class U> void X::f<U>();
 template<class T> template<class U> void X<T>::f<U>();
 ```
 #### Instanciation
-* [Implicit instanciatation](http://b.atch.se/posts/non-constant-constant-expressions/#template-instantiation)
+* Implicit instantiation
   * Not yet been explicitly specialized or explicitly instantiated
   * **Function**: when **its definition is required**.
   * **Class**: when **a completely-defined object type is required**, or when the completeness of the class type affects the semantics of the program.
@@ -128,12 +128,21 @@ template<class T> template<class U> void X<T>::f<U>();
     * Implicitely inline
 * Point of instantiation
   * Location where the compiler is allowed to generate the code for the specialization
-
+  * Assuming:
+    * D is the location of the declaration/definition namespace scope containing the reference to template specialization X
+    * XS depends on template parameters of surrounding template S
+  * Functions:
+    * X poi is immediately **after** D / XS poi is S poi
+    * **Multiple points**, which must all generate the same content: the program is ill-formed if not
+  * Classes:
+    * X poi is immediately **before** D / XS poi is immediately before S poi
+    * **Single point**
+  
 #### Notes
 * [Why Not Specialize Function Templates?](http://www.gotw.ca/publications/mill17.htm)
   * Don't add specialization to **existing** function base template: **use a plain old function**.
   * Prefer to write **new** function base template as a single function template (that should never be specialized or overloaded) calling ***a class template containing a static function** with the same signature.
-
+* [Instantiation] (http://b.atch.se/posts/non-constant-constant-expressions/#template-instantiation)
 ### RVO/NRVO
 * As return value
 ```c++
