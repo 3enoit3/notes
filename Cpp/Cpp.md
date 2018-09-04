@@ -117,6 +117,15 @@ template<class T> class X { template <class U> void f(U); }; // template class a
 template<class U> void X::f<U>();
 template<class T> template<class U> void X<T>::f<U>();
 ```
+#### Instanciation
+* Implicit instanciatation
+  * Not yet been explicitly specialized or explicitly instantiated
+  * **Function**: when **its definition is required**.
+  * **Class**: when **a completely-defined object type is required**, or when the completeness of the class type affects the semantics of the program.
+    * **Member declaration**: when the **class is instantiated**
+    * **Member definition**: when **required**, except unscoped enumerations / anonymous unions (when the class is instantiated) or static data-member (no instantiation).
+    * Friend: the names of its friends are treated as if an explicit specialization had been declared at the point of instantiation
+
 #### Notes
 * [Why Not Specialize Function Templates?](http://www.gotw.ca/publications/mill17.htm)
   * Don't add specialization to **existing** function base template: **use a plain old function**.
@@ -173,6 +182,7 @@ class Derived : public Base<Derived> {
 http://b.atch.se/posts/constexpr-meta-container/
 ```c++
 constexpr int var;
+```
 ## STL
 ### Streams
 ```c++
