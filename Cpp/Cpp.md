@@ -118,13 +118,16 @@ template<class U> void X::f<U>();
 template<class T> template<class U> void X<T>::f<U>();
 ```
 #### Instanciation
-* Implicit instanciatation
+* [Implicit instanciatation](http://b.atch.se/posts/non-constant-constant-expressions/#template-instantiation)
   * Not yet been explicitly specialized or explicitly instantiated
   * **Function**: when **its definition is required**.
   * **Class**: when **a completely-defined object type is required**, or when the completeness of the class type affects the semantics of the program.
     * **Member declaration**: when the **class is instantiated**
     * **Member definition**: when **required**, except unscoped enumerations / anonymous unions (when the class is instantiated) or static data-member (no instantiation).
     * Friend: the names of its friends are treated as if an explicit specialization had been declared at the point of instantiation
+    * Implicitely inline
+* Point of instantiation
+  * Location where the compiler is allowed to generate the code for the specialization
 
 #### Notes
 * [Why Not Specialize Function Templates?](http://www.gotw.ca/publications/mill17.htm)
