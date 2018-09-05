@@ -70,9 +70,9 @@ If not, then **several instances of the entity are generated**.
 
 ### [Inlining](https://stackoverflow.com/questions/10535667/does-it-make-any-sense-to-use-inline-keyword-with-templates/10536588#10536588)
 * Compiler **cannot inline** code if it **cannot access the function definition**
-* Templates are inline by default, **except fully specialized function**: inline must be explicit for them
 * *Usually all private methods are inlined in maximally optimized code*
 * Inlining can be prevented: in GCC use __attribute __(( noinline )), and in Visual Studio use __declspec(noinline).
+* Note: **[inline](https://en.cppreference.com/w/cpp/language/inline)** keyword means "multiple definitions are permitted" and not "inlining is preferred"
 
 ### Lifetime
 * Temporary objects
@@ -103,6 +103,7 @@ struct A {
     struct B {};    // definition
 };
 ```
+
 ### Templates
 #### Samples
 ```c++
@@ -148,12 +149,12 @@ template<class T> template<class U> void X<T>::f<U>();
   * Classes:
     * X poi is immediately **before** D / XS poi is immediately before S poi
     * **Single point**
-  
 #### Notes
 * [Why Not Specialize Function Templates?](http://www.gotw.ca/publications/mill17.htm)
   * Don't add specialization to **existing** function base template: **use a plain old function**.
   * Prefer to write **new** function base template as a single function template (that should never be specialized or overloaded) calling ***a class template containing a static function** with the same signature.
 * [Instantiation] (http://b.atch.se/posts/non-constant-constant-expressions/#template-instantiation)
+
 ### RVO/NRVO
 * As return value
 ```c++
