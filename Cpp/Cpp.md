@@ -153,7 +153,7 @@ template<class T> template<class U> void X<T>::f<U>();
 * [Why Not Specialize Function Templates?](http://www.gotw.ca/publications/mill17.htm)
   * Don't add specialization to **existing** function base template: **use a plain old function**.
   * Prefer to write **new** function base template as a single function template (that should never be specialized or overloaded) calling ***a class template containing a static function** with the same signature.
-* [Instantiation] (http://b.atch.se/posts/non-constant-constant-expressions/#template-instantiation)
+* [Instantiation](http://b.atch.se/posts/non-constant-constant-expressions/#template-instantiation)
 
 ### RVO/NRVO
 * As return value
@@ -201,6 +201,7 @@ class Derived : public Base<Derived> {
   * Add functionality through mixin (ex: derived provides accessors, base provides logic)
   * Static polymorphism (ex: derived+base provides accessors, base used as a generic parameter for functions)
 ## C++11,14,17
+https://www.artima.com/shop/overview_of_the_new_cpp
 ### Constexpr
 * possible to evaluate the value of the function or variable at compile time
 http://b.atch.se/posts/constexpr-meta-container/
