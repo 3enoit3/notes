@@ -66,7 +66,8 @@ If not, then **several instances of the entity are generated**.
 * Directives:
   * **static**: defined in this translation units but cannot be used in others (**internal linkage**) - Linker will enforce it
   * **extern**: used in this translation unit but don't complain if it isn't defined (**external linkage**) - Linker will sort it out
-  * **[inline](https://en.cppreference.com/w/cpp/language/inline)**: defined in multiple translation units (typical use: function definition in header) - Linker will make sure they all use a single instance of the variable/function.
+  * **[inline](https://en.cppreference.com/w/cpp/language/inline)**: defined in multiple translation units (typical use: function definition in header) - Linker will make sure they all use the same address
+    * Method defined in their class are implicitely inline
 
 ### [Inlining](https://stackoverflow.com/questions/10535667/does-it-make-any-sense-to-use-inline-keyword-with-templates/10536588#10536588)
 * Compiler **cannot inline** code if it **cannot access the function definition**
