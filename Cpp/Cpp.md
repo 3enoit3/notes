@@ -201,14 +201,6 @@ class Derived : public Base<Derived> {
 * Usage
   * Add functionality through mixin (ex: derived provides accessors, base provides logic)
   * Static polymorphism (ex: derived+base provides accessors, base used as a generic parameter for functions)
-## C++11,14,17
-https://www.artima.com/shop/overview_of_the_new_cpp
-### Constexpr
-* possible to evaluate the value of the function or variable at compile time
-http://b.atch.se/posts/constexpr-meta-container/
-```c++
-constexpr int var;
-```
 ## STL
 ### Streams
 ```c++
