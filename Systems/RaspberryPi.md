@@ -5,14 +5,30 @@ https://www.quora.com/What-is-the-difference-between-port-bus-protocol-and-inter
 * Interface: a shared boundary between two components
   * Bus: a communication system that transfers data
   * Port: a connection point / socket / external bus
+
 ## Memory-mapped vs Port-mapped IO
 https://www.bogotobogo.com/Embedded/memory_mapped_io_vs_port_mapped_isolated_io.php
+
 # BCM2837
 ## Designations
 * **BCM2835**: https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2835/BCM2835-ARM-Peripherals.pdf
 * BCM2835 vs **BCM2836**: "The only significant difference is the removal of the ARM1176JZF-S processor and replacement with a quad-core Cortex-A7 cluster" : https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2836/README.md 
 * BCM2836 vs **BCM2837**: "The only significant difference is the replacement of the ARMv7 quad core cluster with a quad-core ARM Cortex A53 (ARMv8) cluster" : https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2837/README.md
 On the different designations : https://raspberrypi.stackexchange.com/questions/840/why-is-the-cpu-sometimes-referred-to-as-bcm2708-sometimes-bcm2835
+
+## Peripherals
+* Timers
+* Interrupt controller
+* GPIO
+* USB
+* PCM / I2S
+* DMA controller
+* I2C master
+* I2C / SPI slave
+* SPI0, SPI1, SPI2
+* PWM
+* UART0, UART1
+
 ## Protocols
 https://www.raspberrypi.org/forums/viewtopic.php?t=51450
 * [BSC (I2C)](https://alanbarr.github.io/RaspberryPi-GPIO/i2c.html) - Easiest and most expandable bus. Raspberry has two I2C buses, bus 0 and bus 1. Capable of expanding the Rpi to thousands of output ports. Programming is very easy.
