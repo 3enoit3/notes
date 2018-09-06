@@ -218,13 +218,9 @@ istream is; is >> str; // get(char)/getline/peek, read(bin), tellg/seekg
 ### Zero-cost abstraction
 The runtime cost is the same as for a low level language implementation (generally C).
 http://matthewfl.com/2114/programming/cost-of-abstractions
-### Modern C++
-According to https://arne-mertz.de/2018/08/modern-c-newest-standard/:
-* RAII
-* Strong typing
-* Compile time programming
 ### C++ Design
 https://web.archive.org/web/20160407215648/http://stroustrup.com/rules.pdf
+
 # Tools
 ## Online compilers
 * Boost: https://wandbox.org
