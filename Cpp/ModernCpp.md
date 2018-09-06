@@ -5,8 +5,9 @@ According to https://arne-mertz.de/2018/08/modern-c-newest-standard/:
 * Compile time programming
 
 # Features
-https://www.artima.com/shop/overview_of_the_new_cpp
-www.xavierlamorlette.fr/programmation/cpp/effective_modern_cpp/
+* Meyer
+  * List: https://www.artima.com/shop/overview_of_the_new_cpp
+  * Effective Modern C++: www.xavierlamorlette.fr/programmation/cpp/effective_modern_cpp/
 
 ## Constexpr
 * possible to evaluate the value of the function or variable at compile time
