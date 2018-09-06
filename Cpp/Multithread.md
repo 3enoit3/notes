@@ -42,4 +42,6 @@ boost::this_thread::restore_interruption ri(di); // reactivate interruptions
 ```
 
 # Atomics
-## Lock
+
+# Mutexes
+https://accu.org/index.php/journals/1324
