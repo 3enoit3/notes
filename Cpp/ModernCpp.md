@@ -14,7 +14,9 @@ According to https://arne-mertz.de/2018/08/modern-c-newest-standard/:
 http://b.atch.se/posts/constexpr-meta-container/
 ```c++
 constexpr int var;
+constexpr int f(int i) {...}
 ```
+constexpr is a property of the function, not of the function's input
 
 ## Auto
 https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/
