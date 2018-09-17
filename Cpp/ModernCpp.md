@@ -21,6 +21,14 @@ constexpr is a property of the function, not of the function's input
 ## Auto
 https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/
 
+## Enum
+An enumerator declared in class scope can be referred to using the class member access operators (::, . and ->)
+```c++
+namespace N { enum E { X }; }
+::N::X; // all standards
+::N::E::X; // C++11
+```
+
 ## Template
 ### Argument deduction
 ```c++
