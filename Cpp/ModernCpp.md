@@ -20,3 +20,11 @@ constexpr is a property of the function, not of the function's input
 
 ## Auto
 https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/
+
+## Template
+### Argument deduction
+```c++
+std::pair p{1, 2}; // C++17
+```
+# Links
+* Some c++17 features: https://blog.jetbrains.com/rscpp/whats-new-in-resharper-cpp-2018-2/
