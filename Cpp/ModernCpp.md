@@ -29,6 +29,13 @@ namespace N { enum E { X }; }
 ::N::E::X; // C++11
 ```
 
+## Delegated constructors
+```c++
+class C {
+  C() {}
+  C(int i) : C() {} // C++11 - only one member-initializer: "C(int i) : C(), j_(0) {}" is not valid
+};
+```
 ## Template
 ### Argument deduction
 ```c++
@@ -36,3 +43,4 @@ std::pair p{1, 2}; // C++17
 ```
 # Links
 * Some c++17 features: https://blog.jetbrains.com/rscpp/whats-new-in-resharper-cpp-2018-2/
+* https://www.learncpp.com/cpp-tutorial/b-1-introduction-to-c11/
