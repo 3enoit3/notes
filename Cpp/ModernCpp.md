@@ -28,6 +28,10 @@ namespace N { enum E { X }; }
 ::N::X; // all standards
 ::N::E::X; // C++11
 ```
+## Literals
+```c++
+char b = 0b00110011; //C++14
+```
 
 ## Delegated constructors
 ```c++
