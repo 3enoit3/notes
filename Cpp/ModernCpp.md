@@ -50,5 +50,7 @@ template <typename T> using ptr = T*;
 ptr<int> x;
 ```
 # Links
+* https://github.com/AnthonyCalandra/modern-cpp-features
+* https://stackoverflow.com/questions/38060436/what-are-the-new-features-in-c17
 * Some c++17 features: https://blog.jetbrains.com/rscpp/whats-new-in-resharper-cpp-2018-2/
 * https://www.learncpp.com/cpp-tutorial/b-1-introduction-to-c11/
