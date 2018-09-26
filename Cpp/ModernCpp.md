@@ -20,7 +20,7 @@ constexpr is a property of the function, not of the function's input
 
 ## Auto
 https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/
-
+* Only way to type lambda
 ## Enum
 An enumerator declared in class scope can be referred to using the class member access operators (::, . and ->)
 ```c++
@@ -32,7 +32,6 @@ namespace N { enum E { X }; }
 ```c++
 char b = 0b00110011; //C++14
 ```
-
 ## Delegated constructors
 ```c++
 class C {
@@ -44,6 +43,11 @@ class C {
 ### Argument deduction
 ```c++
 std::pair p{1, 2}; // C++17
+```
+### Using
+```c++
+template <typename T> using ptr = T*; 
+ptr<int> x;
 ```
 # Links
 * Some c++17 features: https://blog.jetbrains.com/rscpp/whats-new-in-resharper-cpp-2018-2/
