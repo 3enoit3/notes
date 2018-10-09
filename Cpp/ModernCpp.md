@@ -59,6 +59,9 @@ auto name = type_and_value;
 using name = type;
 auto f() -> type {}
 ```
+## Design
+* Modern JSON interface: https://github.com/nlohmann/json/tree/v3.3.0
+
 # Links
 * https://github.com/AnthonyCalandra/modern-cpp-features
 * https://stackoverflow.com/questions/38060436/what-are-the-new-features-in-c17
