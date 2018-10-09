@@ -21,6 +21,9 @@ constexpr is a property of the function, not of the function's input
 ## Auto
 https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/
 * Only way to type lambda
+* auto to track (deduce) vs auto to stick (commit): https://www.fluentcpp.com/2018/09/28/auto-stick-changing-style/
+* Force POD initialization
+
 ## Enum
 An enumerator declared in class scope can be referred to using the class member access operators (::, . and ->)
 ```c++
@@ -48,6 +51,13 @@ std::pair p{1, 2}; // C++17
 ```c++
 template <typename T> using ptr = T*; 
 ptr<int> x;
+```
+# Misc
+## C++ is moving towards a “left to right” syntax
+```c++
+auto name = type_and_value;
+using name = type;
+auto f() -> type {}
 ```
 # Links
 * https://github.com/AnthonyCalandra/modern-cpp-features
