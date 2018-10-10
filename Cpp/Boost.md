@@ -113,7 +113,8 @@ BOOST_STATIC_ASSERT_MSG(expr, msg);
 ```c++
 #include <boost/shared_ptr.hpp>
 
-boost::shared_ptr<int> p( new int(42) );
+const boost::shared_ptr<int> p1( new int(42) );
+boost::shared_ptr<int> p2(p1); // reference count is still updated
 ```
 * [Naive mental model for shared_ptr<T>](https://youtu.be/lkgszkPnV8g?t=1210):
   * T* px *[thread unsafe]*
