@@ -2,6 +2,8 @@
 ## Misc
 * Spurious wakeup: a thread is awoken from its waiting state even though no thread signaled the condition variable 
   * Possible reason: system lost track of signals (ex. scheduler blackout) -> wakes up waiting thread by security
+* Race condition
+  * https://github.com/google/sanitizers/wiki/ThreadSanitizerPopularDataRaces
 
 ## Memory order
 |Type|Operation|This thread|Other threads|
