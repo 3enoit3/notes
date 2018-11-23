@@ -24,6 +24,8 @@ All logical functions can be implemented with:
 ### Arithmetic Logic Units
 <br>![](https://cs.nyu.edu/courses/fall07/V22.0436-001/lectures/diagrams/alu-symbol.png)<br>
 ### Clocks
+* clocking methodollogy: when data is valid and stable relative to the clock (edge-triggered clocking)
+<br>![](https://cs.nyu.edu/courses/fall07/V22.0436-001/lectures/diagrams/clock.png)<br>
 
 ## Zynq
 * Programmable Logic (PL): FPGA
