@@ -17,3 +17,9 @@ On x86 plaftorms:
 ```bash
 dumpbin /exports my.dll
 ```
+* Quick debugging
+```c++
+wchar_t log[100];
+::swprintf(log, L"val:%d\n", val);  
+::OutputDebugStringW(log);
+```
