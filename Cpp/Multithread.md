@@ -5,6 +5,34 @@
 * Race condition
   * https://github.com/google/sanitizers/wiki/ThreadSanitizerPopularDataRaces
 
+## Tools
+```c++
+// Atomics on Windows
+int i;
+InterlockedIncrement(&i);
+InterlockedDecrement(&i);
+
+// Mutexes
+boost::mutex m;
+m.lock();
+m.unlock();
+
+// Locks
+boost::lock_guard<boost::mutex> g(m); // cannot be unlocked/moved/copied
+boost::unique_lock<boost::mutex> ul(m); // can be unlocked/moved, cannot be copied
+
+// Condition variables
+boost::condition_variable c;
+{ // Consumer
+  while(!data_ready) c.wait(ul); // use unique_lock to gain mutex
+  // read shared data protected by m thanks to wait
+}
+{ // Producer
+  // write shared data protected by m using a guard for instance
+  cond.notify_one(); // wake up consumer
+}
+```
+
 ## Memory order
 |Type|Operation|This thread|Other threads|
 |-|-|-|-|
@@ -19,8 +47,8 @@ memory_order_seq_cst|all three||a single total order exists in which all threads
 * memory_order_relaxed: std::shared_ptr (note that decrementing the shared_ptr counters requires acquire-release synchronization with the destructor)
 * 
 ## Reordering
-* Compiler
-* CPU
+* Compiler: optimization if no change for the external world
+* CPU: out of order
 ## Ordering
 * **Happens-before**: A happens-before B if the execution behaves as-if all the memory effects of A are visible to the thread executing B _before_ executing it
 * **Synchronize-with**: 
@@ -44,6 +72,12 @@ boost::this_thread::restore_interruption ri(di); // reactivate interruptions
 ```
 
 # Atomics
+https://medium.com/@tylerneely/fear-and-loathing-in-lock-free-programming-7158b1cdd50c
 
 # Mutexes
 https://accu.org/index.php/journals/1324
+http://lucteo.ro/2018/11/18/look-ma-no-locks/
+
+# Semaphore
+N resources are available: there cannot be more than N actors accessing these resources.<br>
+A semaphore is an extension of a simple mutex, as a mutex can be seen as a semaphore with N=1
