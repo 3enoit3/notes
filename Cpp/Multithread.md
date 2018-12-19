@@ -31,6 +31,20 @@ boost::condition_variable c;
   // write shared data protected by m using a guard for instance
   cond.notify_one(); // wake up consumer
 }
+
+// Call once
+boost::once_flag o = BOOST_ONCE_INIT;
+boost::call_once(&init, o);
+
+// Future
+boost::promise<int> p; // it "promises" to fulfill it
+boost::future<int> f = p.get_future(); // it uses a "future" value
+{ // Consumer
+  int i = f.get(); // uses
+}
+{ // Producer
+  p.set(1); // fullfill
+}
 ```
 
 ## Memory order
