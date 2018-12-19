@@ -13,7 +13,7 @@ InterlockedIncrement(&i);
 InterlockedDecrement(&i);
 
 // Mutexes
-boost::mutex m;
+boost::mutex m; // cannot be moved/copied
 m.lock();
 m.unlock();
 
@@ -36,15 +36,17 @@ boost::condition_variable c;
 boost::once_flag o = BOOST_ONCE_INIT;
 boost::call_once(&init, o);
 
-// Future
+// Future (~ single event)
 boost::promise<int> p; // it "promises" to fulfill it
-boost::future<int> f = p.get_future(); // it uses a "future" value
+boost::future<int> f = p.get_future(); // it uses a "future" value, can be moved, cannot be copied
 { // Consumer
-  int i = f.get(); // uses
+  int i = f.get(); // wait
 }
 { // Producer
   p.set(1); // fullfill
 }
+
+boost::shared_future<int> sf; // can be copied (multiple consumers)
 ```
 
 ## Memory order
