@@ -86,6 +86,9 @@ boost::this_thread::disable_interruption di; // deactivate interruptions
 ... // no exception on interruption points
 boost::this_thread::restore_interruption ri(di); // reactivate interruptions
 ```
+# Fibers
+https://en.wikipedia.org/wiki/Fiber_(computer_science)
+# Coroutines
 
 # Atomics
 https://medium.com/@tylerneely/fear-and-loathing-in-lock-free-programming-7158b1cdd50c
