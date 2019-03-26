@@ -75,5 +75,5 @@ https://www.python.org/dev/peps/pep-0339/
 [Format codes](https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior)
 
 ## Assembly
-https://blog.hakril.net/articles/2-understanding-python-execution-tracer.html
+https://blog.hakril.net/articles/2-understanding-python-execution-tracer.html<br>
 https://hackernoon.com/the-magic-behind-python-generator-functions-bc8eeea54220
