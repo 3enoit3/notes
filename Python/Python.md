@@ -60,16 +60,6 @@ print f1()
              35 RETURN_VALUE
 ```
 [Visualize frames](http://pythontutor.com/visualize.html#code=def%20f1%28%29%3A%0A%20%20%20%20return%20f2%28%29%0Adef%20f2%28%29%3A%0A%20%20%20%20return%20t%0At%20%3D%203%0Af1%28%29&cumulative=false&curInstr=10&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
-## Main
-```python
-import sys
-
-def main(argv):
-    return 0
-
-if __name__ == "__main__":
-    sys.exit( main(sys.argv) )
-```
 
 ## Time
 [Format codes](https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior)
