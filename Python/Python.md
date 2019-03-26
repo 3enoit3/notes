@@ -18,7 +18,7 @@ var=1; var2=2
   * if the definition occurs in a function block, the scope extends to any blocks contained within the defining one, unless a contained block introduces a different binding for the name. 
   * the scope of names defined in a class block is limited to the class block; it does not extend to the code blocks of methods – this includes generator expressions since they are implemented using a function scope
 
-https://www.python.org/dev/peps/pep-0339/
+https://www.python.org/dev/peps/pep-0227/<br>
 https://docs.python.org/2/reference/executionmodel.html#
 
 ## Scope
@@ -61,6 +61,16 @@ print f1()
 ```
 [Visualize frames](http://pythontutor.com/visualize.html#code=def%20f1%28%29%3A%0A%20%20%20%20return%20f2%28%29%0Adef%20f2%28%29%3A%0A%20%20%20%20return%20t%0At%20%3D%203%0Af1%28%29&cumulative=false&curInstr=10&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
 
+## Compilation
+https://www.python.org/dev/peps/pep-0339/
+* Source code -> Parse tree
+  * LL(1) parser
+* Parse tree -> Abstract Syntax Tree (AST)
+  * Zephyr Abstract Syntax Definition Language (ASDL)
+* AST -> Control Flow Graph (CFG)
+  * creates namespaces (variables can be classified as local, free/cell for closures, or global) / symbol table
+  * calculates jump offsets
+* CFG -> Bytecode
 ## Time
 [Format codes](https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior)
 
