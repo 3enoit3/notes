@@ -1,6 +1,6 @@
 # Quotes and spaces
 * '/" are not evaluated in "/' ("'$VAR'" is 'VAL')
-* \ is only evaluated in " ("\\" is invalid, "\\"" is ", '\\' is \, '\\'' is invalid but "\\'" is \\')
+* \ is only evaluated in " ("\\" is invalid, "\\"" is ", '\\' is \\, '\\'' is invalid but "\\'" is \\')
 * concatenations are evaluated as a single argument ("1"'2'"3""4"5'6' is 123456) 
 * variables:
   * $VAR means:
