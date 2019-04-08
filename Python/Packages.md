@@ -15,16 +15,16 @@ d = pd.DataFrame([[1, 2, 3], [4, 5, 6]], index=["r1", "r2", "r3"], columns=["c1"
 
 # Access cells
 col = data["c1"]
-row = data.iloc[0]
 row = data.loc["r1"]
+row = data.iloc[0]
 cell = data["c1"]["r1"]
 
 for i, row in data.iterrows():
-  date = row["Date"]
+  val = row["c1"]
 
 # Tools
 data = pd.read_csv("file.csv", index_col=False) # index_col to workaround trailing ,
 data.fillna(0, inplace=True) # replace NaN by 0
-data.rename(columns=lambda h: h.strip(), inplace=True) # strip headers
-data["Date"] = pd.to_datetime(data["Date"], format="%d/%m/%Y") # convert to date object
+data.rename(columns=lambda h: h.strip(), inplace=True) # clean column headers
+data["Date"] = pd.to_datetime(data["Date"], format="%d/%m/%Y") # convert strings to dates
 ```
