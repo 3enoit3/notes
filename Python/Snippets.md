@@ -1,13 +1,42 @@
 # Snippets
-## Main
+## Template
 ```python
-import sys
+#!/usr/bin/python
 
-def main(argv):
+"""Tool"""
+
+import sys
+import argparse
+import unittest
+import logging
+
+def main():
+    """Entry point"""
+
+    # Parse options
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-d", "--debug", action="store_true", default=False,
+                        help="show debug information")
+    args = parser.parse_args()
+
+    # Configure debug
+    if args.debug:
+        logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
+        logging.debug("Enabled debug logging")
+
     return 0
 
 if __name__ == "__main__":
-    sys.exit(main(sys.argv))
+    sys.exit(main())
+
+class Tests(unittest.TestCase):
+    """Unit tests"""
+    # run test suite with "python -m unittest <this_module_name_without_py_extension>"
+
+    def test(self):
+        """Scenario"""
+        self.assertTrue(True is True)
+        self.assertEqual(True, True)
 ```
 
 ## File
