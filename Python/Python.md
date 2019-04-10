@@ -71,6 +71,46 @@ https://www.python.org/dev/peps/pep-0339/
   * creates namespaces (variables can be classified as local, free/cell for closures, or global) / symbol table
   * calculates jump offsets
 * CFG -> Bytecode
+
+## Modules
+* Module
+  * A file containing Python definitions and statements
+  * Search path for "import XXX": XXX in built-in modules, then XXX.py in sys.path \[input script directory, PYTHONPATH, installation defaults]
+  * Cache path for XXX.py: \_\_pycache__/XXX.cpython-33.pyc
+```python
+# Import names from a module
+import module as alias; alias.f()
+from module import function as falias; falias()
+
+# Other
+dir(sys)# list names defined by a module: ['__displayhook__', '__doc__', ... ]
+sys.__name__ # module name: "sys"
+```
+* Package
+  * A set of modules whose namespace uses “dotted module names” 
+```python
+p/
+  __init__.py
+  m.py
+  s1/
+    __init__.py
+    m_s1.py
+  s2/
+    __init__.py
+    m1_s2.py
+    m2_s2.py
+    
+import p.s1.m_s1; p.s1.m_s1.f() # full path
+from p.s1 import m_s1; m_s1.f() # module
+from p.s1.m_s1 import f; f() # function
+from p.s1.m_s1 import *; f() # all functions if s1/__init__.py defines __all__ = ["f"], else just the module
+
+# In m1_s2.py
+from p.s1 import m_s1
+from . import m2_s2
+from .. import s1
+from ..s1 import m_s1
+```
 ## Time
 [Format codes](https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior)
 
