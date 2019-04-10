@@ -87,11 +87,10 @@ dir(sys)# list names defined by a module: ['__displayhook__', '__doc__', ... ]
 sys.__name__ # module name: "sys"
 ```
 * Package
-  * A set of modules whose namespace uses “dotted module names” 
+  * A set of modules whose namespace uses “dotted module names”
 ```python
 p/
-  __init__.py
-  m.py
+  __init__.py # make Python treat the directories as containing packages
   s1/
     __init__.py
     m_s1.py
@@ -100,9 +99,9 @@ p/
     m1_s2.py
     m2_s2.py
     
-import p.s1.m_s1; p.s1.m_s1.f() # full path
-from p.s1 import m_s1; m_s1.f() # module
-from p.s1.m_s1 import f; f() # function
+import p.s1.m_s1; p.s1.m_s1.f()
+from p.s1 import m_s1; m_s1.f()
+from p.s1.m_s1 import f; f()
 from p.s1.m_s1 import *; f() # all functions if s1/__init__.py defines __all__ = ["f"], else just the module
 
 # In m1_s2.py
