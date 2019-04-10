@@ -79,8 +79,8 @@ https://www.python.org/dev/peps/pep-0339/
   * Cache path for XXX.py: \_\_pycache__/XXX.cpython-33.pyc
 ```python
 # Import names from a module
-import module as alias; alias.f()
-from module import function as falias; falias()
+import module as alias;                  alias.f()
+from module import function as falias;   falias()
 
 # Other
 dir(sys)# list names defined by a module: ['__displayhook__', '__doc__', ... ]
@@ -99,10 +99,10 @@ p/
     m1_s2.py
     m2_s2.py
     
-import p.s1.m_s1; p.s1.m_s1.f()
-from p.s1 import m_s1; m_s1.f()
-from p.s1.m_s1 import f; f()
-from p.s1.m_s1 import *; f() # all functions if s1/__init__.py defines __all__ = ["f"], else just the module
+import p.s1.m_s1;           p.s1.m_s1.f()
+from p.s1 import m_s1;      m_s1.f()
+from p.s1.m_s1 import f;    f()
+from p.s1.m_s1 import *;    f() # all functions if s1/__init__.py defines __all__ = ["f"], else just the module
 
 # In m1_s2.py
 from p.s1 import m_s1
