@@ -24,3 +24,14 @@ char buf[100];
 tstruct = *localtime(&now);
 strftime(buf, sizeof(buf), "%Y-%m-%d %X", &tstruct);
 ```
+
+## Doxygen
+```c++
+/// doc
+
+/*!
+ * Send data
+ * @param buffer a data
+ * @return the number of bytes actually sent
+ */
+```
