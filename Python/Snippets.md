@@ -36,6 +36,9 @@ class Tests(unittest.TestCase):
     # run test suite with 
     # python -m unittest <this_module_name_without_py_extension>
 
+    def setUp(self):
+        logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
+
     def test(self):
         """Scenario"""
         self.assertTrue(True is True)
