@@ -30,9 +30,11 @@ def main():
 if __name__ == "__main__":
     sys.exit(main())
 
-class Tests(unittest.TestCase):
+class Tests(unittest.TestCase): 
+    # pylint: disable=too-many-public-methods
     """Unit tests"""
-    # run test suite with "python -m unittest <this_module_name_without_py_extension>"
+    # run test suite with 
+    # python -m unittest <this_module_name_without_py_extension>
 
     def test(self):
         """Scenario"""
