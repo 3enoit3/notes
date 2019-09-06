@@ -44,6 +44,9 @@ Principle of least knowledge: only talk to your immediate friends.
 * **Memento**: captures the state of an object into an opaque class: only the object can access internals to restore its state
 * **Interpreter**: implements a specialized language
 
+## Seven Pernicious Kingdoms
+https://cwe.mitre.org/data/definitions/700.html
+
 # Software engineering
 ## Hierarchy
 https://uvwx.github.io/hierarchy.html
