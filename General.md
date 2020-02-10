@@ -20,4 +20,5 @@ https://danluu.com/p95-skill/
 * ex:
   * the structure of communication protocol is not important at the beginning, but if it is not hidden behind a simple interface, it becomes very difficult to uniformize it later (but it is not as simple either, because abstraction is losing information - cf previous)
 ## Responsibility over reuse
-* a main service and an alert service work together to raise alerts; if the main service gives functional information for the alert service to decide if an alert should be raised, the alert service will have a tendency to pull more private data out of the main service when more complex scenario will come.
+* ex:
+  * a main service and an alert service work together to raise alerts; if the main service gives functional information for the alert service to decide if an alert should be raised, the alert service will have a tendency to pull more private data out of the main service when more complex scenario will come.
