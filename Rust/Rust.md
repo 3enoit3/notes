@@ -51,12 +51,28 @@ enum MyEnum {
   e2,
 }
 let e: MyEnum = MyEnum::e1;
+
+// References
+let v = "Hello".to_string();
+let mut m = "World".to_string();
+
+let rv1 = &v;
+let rv2 = &v; // but not "let r = &mut v" because v is immutable
+
+let rm1 = &m;
+let rm2 = &mut m; // but not "let r3 = &mut m" because m is mutable and already borrowed
+
+*rm2 = "There".to_string();
+rm2.push('!'); // . implicitely uses *
+rv1.is_empty(); 
 ```
 * let type is optional, except for Vec?
 
 ### String
-* String has ownership and is mutable
-* &str borrows a String and so is immutable
+* String: https://doc.rust-lang.org/std/string/struct.String.html
+  * String has ownership and is mutable
+* str: https://doc.rust-lang.org/std/primitive.str.html
+  * &str borrows a String and so is immutable
 * same relationship as between Vec<T> and &[T], T and &T.
 * is interface of &str included in String?
 * https://blog.mgattozzi.dev/how-do-i-str-string/
