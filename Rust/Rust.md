@@ -1,22 +1,49 @@
 # Rust
 ## What I like
 * Const is the default
-* When mutable, it has a unique owner and must moved around
+* When mutable, it has a unique owner and must be moved around
 * References are explicit (passed/expected/dereferenced) and cannot take ownership
 
-## Notes from the playground
+## What I am not sure
+* Typing: when should it be explicit, and when is it deduced?
+* Python generators equivalent: do they exist?
+
+## My playground
 https://github.com/3enoit3/rust_playground
 
-### Command line
+## Environment
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh # to install
 
 rustc file.rs # to compile
+
 cargo new project [--lib] # to create a project
-cd project; cargo build # to build the project
+project> cargo build
+project> cargo test
+project> cargo fmt
+project> cargo doc
 ```
 
-### Code
+### Code format
+https://github.com/rust-dev-tools/fmt-rfcs/blob/master/guide/guide.md
+
+### Code doc
+https://doc.rust-lang.org/rustdoc/how-to-write-documentation.html
+```rust
+#![deny(missing_docs)]
+//! This is a simple file enabling and passing documentation checks
+
+/// Simple string generator
+fn hello() -> String {
+    "Hello World!".to_string()
+}
+
+fn main() {
+    println!("{}", hello());
+}
+```
+
+## Code
 ```rust
 fn name(arg: String) -> String { // "arg: type" and "-> type" are mandatory
   arg // no ;
@@ -68,13 +95,13 @@ rv1.is_empty();
 ```
 * let type is optional, except for Vec?
 
-### Types
+## Types
 * String: https://doc.rust-lang.org/std/string/struct.String.html
 * str: https://doc.rust-lang.org/std/primitive.str.html
 * char: https://doc.rust-lang.org/std/primitive.char.html
 * Vec: https://doc.rust-lang.org/std/vec/struct.Vec.html
 
-#### Strings
+### Strings
 * String has ownership and is mutable
 * &str borrows a String and so is immutable
 * same relationship as between Vec<T> and &[T], T and &T.
@@ -99,7 +126,7 @@ fn split_into_words() -> Vec<&str> { // is not possible because &str must be bor
 let s: String = v.into_iter().collect(); // convert vec of chars into a String
 ```
 
-#### Vec
+### Vec
 ```rust
 let v: Vec<char> = Vec::new();
 let v = Vec::char::new();
