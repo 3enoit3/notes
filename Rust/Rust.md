@@ -16,7 +16,7 @@ cargo new project [--lib] # to create a project
 cd project; cargo build # to build the project
 ```
 
-### Misc
+### Code
 ```rust
 fn name(arg: String) -> String { // "arg: type" and "-> type" are mandatory
   arg // no ;
@@ -68,14 +68,19 @@ rv1.is_empty();
 ```
 * let type is optional, except for Vec?
 
-### String
+### Types
 * String: https://doc.rust-lang.org/std/string/struct.String.html
-  * String has ownership and is mutable
 * str: https://doc.rust-lang.org/std/primitive.str.html
-  * &str borrows a String and so is immutable
+* char: https://doc.rust-lang.org/std/primitive.char.html
+* Vec: https://doc.rust-lang.org/std/vec/struct.Vec.html
+
+#### Strings
+* String has ownership and is mutable
+* &str borrows a String and so is immutable
 * same relationship as between Vec<T> and &[T], T and &T.
 * is interface of &str included in String?
 * https://blog.mgattozzi.dev/how-do-i-str-string/
+
 ```rust
 println!("{}", str); // first argument of println!() is a literal
 
@@ -90,4 +95,13 @@ fn split_into_words() -> Vec<String> {
 fn split_into_words() -> Vec<&str> { // is not possible because &str must be borrowed from somewhere
   "Hello".split(' ').collect()
 }
+
+let s: String = v.into_iter().collect(); // convert vec of chars into a String
+```
+
+#### Vec
+```rust
+let v: Vec<char> = Vec::new();
+let v = Vec::char::new();
+let v = vec!['a', 'b', 'c'];
 ```
