@@ -8,8 +8,9 @@
 * Typing: when should it be explicit, and when is it deduced?
 * Python generators equivalent: do they exist?
 
-## My playground
-https://github.com/3enoit3/rust_playground
+## Playground
+* online: https://play.rust-lang.org/
+* mine offline: https://github.com/3enoit3/rust_playground
 
 ## Environment
 ```bash
@@ -115,6 +116,8 @@ println!("{}", str); // first argument of println!() is a literal
 "Hello".to_owned();
 String::from("Hello");
 
+let slice: &str = &s[..]; // -> &str
+
 fn split_into_words() -> Vec<String> {
   "Hello World!".split(' ').map(|x| x.to_string()).collect()
 }
@@ -124,6 +127,9 @@ fn split_into_words() -> Vec<&str> { // is not possible because &str must be bor
 }
 
 let s: String = v.into_iter().collect(); // convert vec of chars into a String
+
+let s = 4.to_string();
+let i = "4".parse::<u8>().unwrap();
 ```
 
 ### Vec
