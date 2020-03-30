@@ -12,5 +12,5 @@
 * Code
   * [Cnorm](http://pythonhosted.org/cnorm/intro.html#about-cnorm) : C front end
   
-** Functional programming
+## Functional programming
 * [Dry-python](https://github.com/dry-python) is a set of python libraries, like "return something meaningful, typed, and safe!"
