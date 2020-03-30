@@ -4,7 +4,7 @@ My notes about software development.
 ## General
 * [General notes](General.md) : thoughts about programming and being a Senior dev
 * [Design](Design.md) : design principles
-* [Libraries](Libraries.md) : interesting libraries and tools, in any languages
+* [Libraries](Libraries.md) : interesting libraries and tools, in various languages
 
 ## [Languages](https://github.com/3enoit3/notes/tree/master/Languages)
 * [C++](https://github.com/3enoit3/notes/tree/master/Languages/Cpp)
