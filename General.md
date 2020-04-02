@@ -53,9 +53,9 @@ https://www.drmaciver.com/2016/10/some-things-that-might-help-you-write-better-s
 https://littleblah.com/post/2019-09-01-senior-engineer-checklist/
 ## Improving
 https://danluu.com/p95-skill/
-## Experience
-These are real cases I have experienced:
-### Decisisions in big groups are difficult
+## My experience
+Real cases I have experienced.
+### Decisions in big groups are difficult
 * high latency
 * first attempt to solve it: put 10 seniors in a meeting room for an hour -> no clear lead, no decision
 * second attempt to solve it: put 4 seniors in a meeting room for a day -> ?
