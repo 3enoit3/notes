@@ -58,7 +58,7 @@ Real cases I have experienced.
 ### Decisions in big groups are difficult
 * high latency
 * first attempt to solve it: put 10 seniors in a meeting room for an hour -> no clear lead, no decision
-* second attempt to solve it: put 4 seniors in a meeting room for a day -> ?
+* second attempt to solve it: put 4 seniors in a meeting room for a day -> better, but the scope needs to be clear and narrow; visibility is mandatory.
 ### Abstracting is losing information
 * ex:
   * several state machines can communicate through a generic event queue, hiding the dependencies between state machines: this is easy to test in isolation, but some scenario are simpler to solve if state machines know each other.
