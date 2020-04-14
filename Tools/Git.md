@@ -1,5 +1,21 @@
 # Git
+## Branches
+```bash
+# Squash
+git rebase -i HEAD~<number of commits on the branch, after the fork>
+git commit --amend
+git push --force-with-lease
 
+# Rebase (from the branch)
+git checkout my_branch
+git rebase master
+git push --force-with-lease
+
+# Merge (from master)
+git checkout master
+git merge my_branch
+git push
+```
 ## Tips
 ```bash
 # nice logs
