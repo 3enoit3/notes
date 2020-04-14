@@ -17,8 +17,8 @@ git merge my_branch
 git push
 
 # Delete
-git branch -d my_branch
-git push origin --delete my_branch
+git branch -d my_branch # local
+git push origin --delete my_branch # remote
 ```
 ## Tips
 ```bash
