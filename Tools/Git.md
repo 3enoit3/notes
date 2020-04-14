@@ -18,6 +18,6 @@ git push
 ```
 ## Tips
 ```bash
-# nice logs
+# Nice log graph, with age and author
 git log --pretty=format:'%C(auto)%h%d%C(reset) \"%s\" %C(yellow)%ar by %an' --graph --all -30
 ```
