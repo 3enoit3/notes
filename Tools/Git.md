@@ -15,6 +15,10 @@ git push --force-with-lease
 git checkout master
 git merge my_branch
 git push
+
+# Delete
+git branch -d my_branch
+git push origin --delete my_branch
 ```
 ## Tips
 ```bash
