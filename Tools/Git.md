@@ -24,4 +24,7 @@ git push origin --delete my_branch # remote
 ```bash
 # Nice log graph, with age and author
 git log --pretty=format:'%C(auto)%h%d%C(reset) \"%s\" %C(yellow)%ar by %an' --graph --all -30
+
+# Get the changes of a particular change set in local
+git cherry-pick --no-commit <changeset_id>
 ```
