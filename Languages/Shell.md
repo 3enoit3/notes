@@ -32,7 +32,10 @@ eval $CMD2 # ok: hi world
 ```
 
 # Tips
-* [Grep a stream](https://stackoverflow.com/a/7162898)
 ```shell
+# Grep a stream (https://stackoverflow.com/a/7162898)
 tail -f file | grep --line-buffered my_pattern
+
+# Get script path (https://stackoverflow.com/a/4774063)
+SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 ```
