@@ -46,19 +46,25 @@ class Tests(unittest.TestCase):
 ```
 
 ## File
-### Append a file
 ```python
+# Append a file
 with open("path", "a") as file:
   file.write("data\n")
+  file.flush()
 ```
 
 ## Time
-### Measure performances
 ```python
+# Measure performances
 import timeit
 
 start = timeit.default_timer()
 ...
 end = timeit.default_timer()
 print( "Completed in {0:.3f}s".format(end - start) )
+```
+
+## Regex
+```python
+re.compile(r'(?P<group_name>\S+)')
 ```
