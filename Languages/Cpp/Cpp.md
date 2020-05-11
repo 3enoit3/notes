@@ -1,4 +1,7 @@
 # C++
+## Features
+[Modern C++ features](https://3enoit3.github.io/data_tools.js/lists/)
+
 ## Misc
 ### Generalities
 * Parameter vs Argument
