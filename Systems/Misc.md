@@ -21,3 +21,7 @@ Storage virtualization
 * **RAID 6** : striping and double parity distributed on all drives
   * same features as RAID 5, but better for big drives/arrays
   * requires at least 4 disks
+
+# Storage in networks
+## SAN (Storage Area Network)
+Computer network for block-level storage.
