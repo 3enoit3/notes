@@ -30,4 +30,8 @@ git cherry-pick --no-commit <changeset_id>
 
 # See only changed files of a commit
 git show --name-only <changeset_id>
+
+# Tell Git how to rebase
+git rebase --onto <changeset_id_to_replay_on> <changeset_id_to_replay_from_not_included>
+# this is useful when the parent branch has been squashed: git rebase --onto <new_squashed_changeset> <forking_changeset>
 ```
