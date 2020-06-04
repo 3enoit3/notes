@@ -14,3 +14,10 @@
   
 ## Functional programming
 * [Dry-python](https://github.com/dry-python) is a set of python libraries, like "return something meaningful, typed, and safe!"
+
+## Shell
+* https://github.com/BurntSushi/ripgrep : fast grep (in Rust) - see also blogspot
+* https://github.com/sharkdp/fd : fast find (in Rust)
+
+# Misc
+* Yocto: https://elinux.org/images/d/d4/Goulart.pdf
