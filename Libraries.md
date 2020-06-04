@@ -21,3 +21,5 @@
 
 # Misc
 * Yocto: https://elinux.org/images/d/d4/Goulart.pdf
+* Cmake
+  * dependencies: find_package() with https://cmake.org/cmake/help/latest/module/FindBoost.html, or create own FindXXX.cmake
