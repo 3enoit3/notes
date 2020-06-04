@@ -6,6 +6,7 @@
 * Templates
   * [Hygien](https://github.com/jondot/hygen) helps generating fully integrated components 
   * [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) is a python library, producing content based on Django templates
+  * https://github.com/sustrik/tiles for rectangular areas
 
 ## Parsing
 * [Pyrser](http://pythonhosted.org/pyrser/quickstart.html#about-pyrser) : LL(k), LR(k), and deal with “not so context-free” grammar
