@@ -24,3 +24,6 @@
 * Yocto: https://elinux.org/images/d/d4/Goulart.pdf
 * Cmake
   * dependencies: find_package() with https://cmake.org/cmake/help/latest/module/FindBoost.html, or create own FindXXX.cmake
+* npm
+  * set different directory: https://github.com/nodeschool/discussions/issues/1488#issuecomment-148779885
+  
