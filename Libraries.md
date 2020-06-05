@@ -26,4 +26,5 @@
   * dependencies: find_package() with https://cmake.org/cmake/help/latest/module/FindBoost.html, or create own FindXXX.cmake
 * npm
   * set different directory: https://github.com/nodeschool/discussions/issues/1488#issuecomment-148779885
-  
+* Docker
+  * https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#minimize-the-number-of-layers
