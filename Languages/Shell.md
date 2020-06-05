@@ -31,6 +31,9 @@ CMD2='cat f1.txt | sed '"'"'s/hello /hi /'"'"
 eval $CMD2 # ok: hi world
 ```
 
+# Colors
+https://misc.flogisoft.com/bash/tip_colors_and_formatting
+
 # Tips
 ```shell
 # Grep a stream (https://stackoverflow.com/a/7162898)
