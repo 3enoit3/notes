@@ -13,7 +13,7 @@ git push --force-with-lease
 
 # Merge (from master)
 git checkout master
-git merge my_branch
+git merge --ff-only my_branch
 git push
 
 # Delete
