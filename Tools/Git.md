@@ -28,6 +28,9 @@ git log --pretty=format:'%C(auto)%h%d%C(reset) \"%s\" %C(yellow)%ar by %an' --gr
 # Get the changes of a commit in local
 git cherry-pick --no-commit <changeset_id>
 
+# Get a file of a commit in local
+git show <changeset_id_or_branch>:<path_to_the_file> > <local_file_name>
+
 # See only changed files of a commit
 git show --name-only <changeset_id>
 
