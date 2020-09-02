@@ -22,7 +22,7 @@ git push origin --delete my_branch # remote
 ```
 ## Configuration
 ```bash
-git config --global push.default simple # default can push other branches, particularly dangerous in case of forced push
+git config --global push.default simple # default 'matching' may push other branches, particularly dangerous in case of forced push
 ```
 ## Tips
 ```bash
