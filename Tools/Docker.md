@@ -14,14 +14,16 @@ domino-regression-none   latest              10f8ad66c529        6 days ago     
 ```
 
 ## Docker-compose
-https://learnxinyminutes.com/docs/yaml/
+* docker-compose.yml: https://docs.docker.com/compose/compose-file/
+* yaml: https://learnxinyminutes.com/docs/yaml/
+
 ```yaml
 version: "3.4"
 
 # define some optional helpers
 x-build: &default-build # define anchor (anchored_content: &anchor_name)
   context: . # define the path to a directory containing a Dockerfile, or a url to a git repository
-  args:
+  args: # add build arguments, which are environment variables accessible only during the build process
     - UID=1000
     - GID=1000
 x-volumes: &default-volumes
