@@ -138,3 +138,6 @@ let v: Vec<char> = Vec::new();
 let v = Vec::char::new();
 let v = vec!['a', 'b', 'c'];
 ```
+
+### Modules
+https://stackoverflow.com/a/62702785
