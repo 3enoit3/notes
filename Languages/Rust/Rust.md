@@ -140,4 +140,19 @@ let v = vec!['a', 'b', 'c'];
 ```
 
 ### Modules
+```rust
+// src/main.rs
+mod rendering;
+mod game;
+
+let v: rendering::Sprite = game::get_sprite();
+
+// src/rendering.rs
+struct Sprite { .. }
+
+// src/game.rs
+use crate::rendering;
+
+fn get_sprite() -> rendering::Sprite { .. }
+```
 https://stackoverflow.com/a/62702785
