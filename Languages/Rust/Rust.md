@@ -46,7 +46,7 @@ fn main() {
 
 ## Code
 ```rust
-fn name(arg: String) -> String { // "arg: type" and "-> type" are mandatory
+fn name(arg: String) -> String { // "arg: type" and "-> type" are mandatory if not void
   arg // no ;
 }
 
@@ -69,7 +69,7 @@ mod tests {
 }
 
 println("{}", i);
-let v: Vec<char> = Vec::new();
+let v: Vec<char> = Vec::new(); // let type is optional if compiler can deduce: Vec::<char>::new()
 println!("{:?}", v); // debug print
 
 #[derive(PartialEq)] // to test MyEnum::e1 != MyEnum::e2
@@ -79,6 +79,11 @@ enum MyEnum {
   e2,
 }
 let e: MyEnum = MyEnum::e1;
+
+let val = match e {
+    MyEnum::e1 => 0,
+    MyEnum::e2 => 1,
+}
 
 // References
 let v = "Hello".to_string();
@@ -94,7 +99,6 @@ let rm2 = &mut m; // but not "let r3 = &mut m" because m is mutable and already 
 rm2.push('!'); // . implicitely uses *
 rv1.is_empty(); 
 ```
-* let type is optional, except for Vec?
 
 ## Types
 * String: https://doc.rust-lang.org/std/string/struct.String.html
