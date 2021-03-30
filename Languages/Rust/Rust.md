@@ -139,7 +139,13 @@ let v = Vec::char::new();
 let v = vec!['a', 'b', 'c'];
 ```
 
-### Modules
+### Conversions
+```rust
+let x: u32 = 0;
+let y: i32 = x as i32;
+```
+
+## Modules
 ```rust
 // src/main.rs
 mod rendering;
@@ -148,11 +154,11 @@ mod game;
 let v: rendering::Sprite = game::get_sprite();
 
 // src/rendering.rs
-struct Sprite { .. }
+pub struct Sprite { .. }
 
 // src/game.rs
 use crate::rendering;
 
-fn get_sprite() -> rendering::Sprite { .. }
+pub fn get_sprite() -> rendering::Sprite { .. }
 ```
 https://stackoverflow.com/a/62702785
