@@ -7,7 +7,10 @@
 ## What I am not sure
 * Typing: when should it be explicit, and when is it deduced?
 * Python generators equivalent: do they exist?
-
+* More time spent in compilation than in execution testing
+* Some problems must be solved up front (ex. error management..), which is good but frustrating at first (difficult to prototype and expend)
+* Compiler seems to guide toward better design (ex. method member taking a reference cannot take data member as parameter, which somehow makes sense -> split into sub-struct)
+ 
 ## Playground
 * online: https://play.rust-lang.org/
 * mine offline: https://github.com/3enoit3/rust_playground
