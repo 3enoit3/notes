@@ -41,4 +41,7 @@ git show --name-only <changeset_id>
 # Tell Git how to rebase
 git rebase --onto <changeset_id_to_replay_on> <changeset_id_to_replay_from_not_included>
 # this is useful when the parent branch has been squashed: git rebase --onto <new_squashed_changeset> <forking_changeset>
+
+# See where is a commit
+git branch --contains <changeset_id>
 ```
