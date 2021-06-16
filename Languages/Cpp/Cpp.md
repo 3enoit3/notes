@@ -107,6 +107,11 @@ struct A {
     struct B {};    // definition
 };
 ```
+#### Type promotion
+* bitwise shift
+  * integer promotions on each of the operands:
+    * left operand: type of the result 
+    * right operand: undefined behavior if negative or greater than or equal to the width of the promoted left operand
 
 ### Templates
 #### Samples
@@ -204,6 +209,7 @@ class Derived : public Base<Derived> {
 * Usage
   * Add functionality through mixin (ex: derived provides accessors, base provides logic)
   * Static polymorphism (ex: derived+base provides accessors, base used as a generic parameter for functions)
+
 ## STL
 ### Streams
 ```c++
