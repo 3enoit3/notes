@@ -108,7 +108,7 @@ struct A {
 };
 ```
 #### Type promotion
-* bitwise shift
+* bitwise shift: L << R
   * integer promotions on each of the operands:
     * left operand: type of the result 
     * right operand: undefined behavior if negative or greater than or equal to the width of the promoted left operand
