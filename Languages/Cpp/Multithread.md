@@ -2,6 +2,8 @@
 ## Misc
 * Spurious wakeup: a thread is awoken from its waiting state even though no thread signaled the condition variable 
   * Possible reason: system lost track of signals (ex. scheduler blackout) -> wakes up waiting thread by security
+* Lost wakeup : a thread is waiting for a event which has already happened
+  * Possible reason: condition_variable wait() without predicate
 * Race condition
   * https://github.com/google/sanitizers/wiki/ThreadSanitizerPopularDataRaces
 
@@ -47,6 +49,7 @@ boost::call_once(&init, o);
 
 // Future
 // one-time channel shared across threads, to send a single data
+// can be implemented with a condition_variable (https://mciantyre.github.io/post/2017-09-20-cpp-promises-futures/)
 std::promise<int> p; // "pull end" of the channel: it "promises" the consumer it will be fulfilled
 std::future<int> f = p.get_future(); // "push end" of the channel: the producer will use it to fulfill the promise, can be moved, cannot be copied
 { // Consumer
