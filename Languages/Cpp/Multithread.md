@@ -13,22 +13,31 @@ InterlockedIncrement(&i);
 InterlockedDecrement(&i);
 
 // Mutexes
-boost::mutex m; // cannot be moved/copied
+// shared across threads
+std::mutex m; // cannot be moved/copied
 m.lock();
 m.unlock();
 
 // Locks
-boost::lock_guard<boost::mutex> g(m); // cannot be unlocked/moved/copied
-boost::unique_lock<boost::mutex> ul(m); // can be unlocked/moved, cannot be copied
+// local to a thread, to protect a (small) section of code 
+std::lock_guard<std::mutex> guard(m); // cannot be unlocked/moved/copied
+std::unique_lock<std::mutex> lock(m); // can be unlocked/moved, cannot be copied
 
 // Condition variables
-boost::condition_variable c;
+// shared across threads, to wait for an event
+std::condition_variable c;
+bool ready; // ! needed to prevent lost/spurious wakeup: https://www.modernescpp.com/index.php/c-core-guidelines-be-aware-of-the-traps-of-condition-variables
 { // Consumer
-  while(!data_ready) c.wait(ul); // use unique_lock to gain mutex
+  std::unique_lock<std::mutex> lock(m);
+  condVar.wait(lock, []{ return ready; });
   // read shared data protected by m thanks to wait
 }
 { // Producer
-  // write shared data protected by m using a guard for instance
+  {
+    std::lock_guard<std::mutex> lck(mutex_);
+    // write shared data
+    ready = true; // no need for a lock if ready is atomic<bool>
+  }
   cond.notify_one(); // wake up consumer
 }
 
@@ -36,9 +45,10 @@ boost::condition_variable c;
 boost::once_flag o = BOOST_ONCE_INIT;
 boost::call_once(&init, o);
 
-// Future (~ single event)
-boost::promise<int> p; // it "promises" to fulfill it
-boost::future<int> f = p.get_future(); // it uses a "future" value, can be moved, cannot be copied
+// Future
+// one-time channel shared across threads, to send a single data
+std::promise<int> p; // "pull end" of the channel: it "promises" the consumer it will be fulfilled
+std::future<int> f = p.get_future(); // "push end" of the channel: the producer will use it to fulfill the promise, can be moved, cannot be copied
 { // Consumer
   int i = f.get(); // wait
 }
@@ -46,7 +56,7 @@ boost::future<int> f = p.get_future(); // it uses a "future" value, can be moved
   p.set(1); // fullfill
 }
 
-boost::shared_future<int> sf; // can be copied (multiple consumers)
+std::shared_future<int> sf; // can be copied (multiple consumers)
 ```
 
 ## Memory order
