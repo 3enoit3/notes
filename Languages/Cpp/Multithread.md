@@ -113,3 +113,6 @@ http://lucteo.ro/2018/11/18/look-ma-no-locks/
 # Semaphore
 N resources are available: there cannot be more than N actors accessing these resources.<br>
 A semaphore is an extension of a simple mutex, as a mutex can be seen as a semaphore with N=1
+
+# Misc
+https://www.gdcvault.com/play/1022186/Parallelizing-the-Naughty-Dog-Engine
