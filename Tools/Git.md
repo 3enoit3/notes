@@ -44,4 +44,7 @@ git rebase --onto <changeset_id_to_replay_on> <changeset_id_to_replay_from_not_i
 
 # See where is a commit
 git branch --contains <changeset_id>
+
+# See new files on branch
+git diff --name-only --diff-filter=A develop.. -- .
 ```
