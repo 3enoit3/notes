@@ -51,3 +51,11 @@ git diff --name-only --diff-filter=A develop.. -- .
 # See diff ignoring identation and context
 git diff -w -U0 --word-diff-regex='[^[:space:]]' -- .
 ```
+## Tags
+```bash
+# Create tag
+git tag <tagname>
+
+# Push
+git push origin <tagname>
+```
