@@ -21,7 +21,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh # to install
 
 rustc file.rs # to compile
 
-cargo new project [--lib] # to create a project
+cargo new <project> [--lib] # to create a project
 project> cargo build
 project> cargo test
 project> cargo fmt
