@@ -169,3 +169,10 @@ use crate::rendering;
 pub fn get_sprite() -> rendering::Sprite { .. }
 ```
 https://stackoverflow.com/a/62702785
+ 
+## Errors
+```rust
+let result: Result<String, String> = Ok(String::from("Hello, world!"));
+let value = result.unwrap(); // move the String to value
+// println!("Result: {}", result.unwrap()); // The following line will cause a compilation error because `result` has been consumed.
+```
