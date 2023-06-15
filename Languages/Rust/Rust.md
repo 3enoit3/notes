@@ -105,7 +105,12 @@ let rm2 = &mut m; // but not "let r3 = &mut m" because m is mutable and already 
 
 *rm2 = "There".to_string();
 rm2.push('!'); // . implicitely uses *
-rv1.is_empty(); 
+rv1.is_empty();
+
+// Tuples
+let my_tuple = (10, "hello");
+let first_element = my_tuple.0;
+let (i, s) = my_tuple;
 ```
 
 ## Types
