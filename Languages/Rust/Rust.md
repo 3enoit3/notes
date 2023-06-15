@@ -30,6 +30,11 @@ project> cargo doc
 
 ### Code format
 https://github.com/rust-dev-tools/fmt-rfcs/blob/master/guide/guide.md
+```rust
+// snake case
+let my_variable = 42;
+fn my_function_name() {}
+```
 
 ### Code doc
 https://doc.rust-lang.org/rustdoc/how-to-write-documentation.html
