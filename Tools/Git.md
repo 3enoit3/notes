@@ -50,6 +50,9 @@ git diff --name-only --diff-filter=A develop.. -- .
 
 # See diff ignoring identation and context
 git diff -w -U0 --word-diff-regex='[^[:space:]]' -- .
+
+# Find even a deleted file
+git log --all --full-history -- <path-to-file>
 ```
 ## Tags
 ```bash
