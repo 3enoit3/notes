@@ -185,4 +185,22 @@ https://stackoverflow.com/a/62702785
 let result: Result<String, String> = Ok(String::from("Hello, world!"));
 let value = result.unwrap(); // move the String to value
 // println!("Result: {}", result.unwrap()); // The following line will cause a compilation error because `result` has been consumed.
+
+// error for std::io::Result<String>
+let err = Error::new(ErrorKind::Other, format!("Oups: {}", error));
+return Err(err);
+// ok for std::io::Result<String>
+return Ok("yeah".to_string());
+```
+
+## Iterators and results
+```rust
+// get the first element of an iterator (iter is mut, because the iterator is advanced)
+let Some(first_element) = iter.next() else {
+ return; // early return
+};
+first_element // use the element
+
+// get the other elements
+let other_elements: Vec<&str> = iter.collect();
 ```
