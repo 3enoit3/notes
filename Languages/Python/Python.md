@@ -116,3 +116,10 @@ from ..s1 import m_s1
 ## Assembly
 https://blog.hakril.net/articles/2-understanding-python-execution-tracer.html<br>
 https://hackernoon.com/the-magic-behind-python-generator-functions-bc8eeea54220
+
+## pipenv
+```shell
+pipenv install requests==2.13.0 # creates Pipfiles and Pipfiles.lock
+pipenv lock # refresh Pipfiles.lock
+pipenv shell # start shell with right python packages
+```
