@@ -9,4 +9,8 @@ Interesting links
 * https://www.vox.com/future-perfect/23965898/child-poverty-expanded-child-tax-credit-economy-welfare-phase-ins #misc
 * https://github.com/bitswired/rustgpt "the Axum framework combined with HTMX, providing a Rusty web development experience" + sqlite #rust
 
+21/11/2023
+* https://www.scu.edu/ethics/focus-areas/business-ethics/resources/seven-signs-of-ethical-collapse/ keep costs low; keep quality high; focus on customer service #business; We’re dependent on individuals saying, ‘No, we can’t do that,’ #business
+* https://sourcegraph.com/blog/zoekt-creating-internal-tools-at-google Taking the bull by the horns #tools
+* https://blog.matiaspan.dev/posts/exploring-dagger-streamlining-ci-cd-pipelines-with-code/ Dagger is a new tool that promises to fix the yaml and custom scripts mess that CI/CD currently is by building pipelines as code #devops
 
