@@ -1,6 +1,12 @@
 Interesting links
 =================
 
+22/11/2023
+* https://rocket.rs/ webserver with nice json implementation #rust
+* https://rachit.pl/files/pubs/filament.pdf formalization of electronics #electronic
+* https://mastersofmedia.hum.uva.nl/blog/2019/03/26/can-we-deter-tech-monopolies-and-combat-income-inequality-through-a-reformed-open-source-software/ #opensource
+* https://www.wsj.com/articles/nasa-james-webb-space-telescope-greg-robinson-images-11657137487 marginal improvements #software
+
 * https://www.reddit.com/r/spacex/comments/gxb7j1/we_are_the_spacex_software_team_ask_us_anything/
   
 20/11/2023
