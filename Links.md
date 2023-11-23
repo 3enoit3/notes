@@ -1,6 +1,16 @@
 Interesting links
 =================
 
+23/11/2023
+* https://jvns.ca/blog/2023/11/23/branches-intuition-reality/ git lets you do rebases “backwards” #git
+* https://catern.com/services.html By avoiding the maintenance and upgrade costs of a service, a library can afford to contain more functionality #services
+* https://lwn.net/SubscriberLink/952029/412bfd44912e90b2/ Whether the kernel community has truly concluded that it is committed to Rust remains to be seen #rust
+* https://gbdev.io/pandocs/ most comprehensive technical reference to Game Boy #retro
+* https://github.com/visioncortex/vtracer open source software to convert raster images (like jpg & png) into vector graphics (svg) #svg
+* https://hakaimagazine.com/videos-visuals/the-secret-language-of-ships/
+* https://ln.hixie.ch/?start=1700627373&count=1 problems with Google today stem from a lack of visionary leadership, "Decisions went from being made for the benefit of users, to the benefit of Google, to the benefit of whoever was making the decision. Transparency evaporated" #vision
+* https://www.timdbg.com/posts/writing-a-debugger-from-scratch-part-1/ debugger in rust, from Microsoft Debugger Platform team member #rust
+
 22/11/2023
 * https://rocket.rs/ webserver with nice json implementation #rust
 * https://rachit.pl/files/pubs/filament.pdf formalization of electronics #electronic
