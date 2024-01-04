@@ -1,6 +1,9 @@
 Interesting links
 =================
 
+Sources
+* https://news.ycombinator.com/front
+
 04/01/2023
 * https://www.ricmedia.com/tutorials/build-a-raspberry-pi-nas-server#usb-flash raid 1 on raspberry pi #tools
 * https://github.com/tldraw/tldraw miro equivalent self hosted #tools
