@@ -1,11 +1,35 @@
 Interesting links
 =================
 
+04/01/2023
+* https://www.ricmedia.com/tutorials/build-a-raspberry-pi-nas-server#usb-flash raid 1 on raspberry pi #tools
+* https://github.com/tldraw/tldraw miro equivalent self hosted #tools
+* https://liveplusplus.tech/ live c++ update and results #cpp #tools
+* https://github.com/ktock/container2wasm #wasm
+* https://wozniak.ca/blog/2024/01/02/1/index.html gcc is a driver, not a compiler #cpp
+* https://github.com/uutils/coreutils #rust
+* https://blog.vmsplice.net/2024/01/qemu-aiocontext-removal-and-how-it-was.html #multithread
+* https://blog.lenot.re/a/introduction kernel in rust (30% of system calls) #rust
+
+Xmas break
+* https://pdx.su/blog/2023-10-25-css-is-fun-again/ modern css with preprocessor nesting and color-mix #css
+* https://suggestions.ink/ text suggestion protocol #tools
+* https://sprocketfox.io/xssfox/2021/12/02/xrandr/ best way to use big screen is to tilt 22 degree
+* https://www.paradigm.xyz/2020/08/ethereum-is-a-dark-forest sneaky recovering not to be spotted by bots #blockchain
+* https://nick.scialli.me/blog/why-im-skeptical-of-low-code/ 80% can be done, but 20% needs custom #software
+* https://techbooks.substack.com/p/why-asking-your-customers-what-they focus on the job to be done, pay attention to workarounds (spent effort to work around) #business
+* https://simonwillison.net/2023/Dec/31/ai-in-2023/ Code may be the best application #ai
+* https://chhopsky.itch.io/an-easy-fix a game about fixing a jira ticket #game
+* https://rnikhil.com/2023/12/31/ai-cfr-solver-poker.html ai on poker #ai #game
+* https://matklad.github.io/2023/12/31/git-things.html not rocket science rule: all tests green + new test to accept PR #git
+* https://www.inc.com/jeff-haden/27-years-ago-steve-jobs-said-best-employees-focus-on-content-not-process-workplace-research-shows-he-was-right.html focus on content (outcome), not process - get things done - take care of superstars #business
+* https://garymarcus.substack.com/p/things-are-about-to-get-a-lot-worse copyright are easily broken: "animated sponge" #ai
+
 23/11/2023
 * https://jvns.ca/blog/2023/11/23/branches-intuition-reality/ git lets you do rebases “backwards” #git
 * https://catern.com/services.html By avoiding the maintenance and upgrade costs of a service, a library can afford to contain more functionality #services
 * https://lwn.net/SubscriberLink/952029/412bfd44912e90b2/ Whether the kernel community has truly concluded that it is committed to Rust remains to be seen #rust
-* https://gbdev.io/pandocs/ most comprehensive technical reference to Game Boy #retro
+* https://gbdev.io/pandocs/ most comprehensive technical reference to Game Boy #game
 * https://github.com/visioncortex/vtracer open source software to convert raster images (like jpg & png) into vector graphics (svg) #svg
 * https://hakaimagazine.com/videos-visuals/the-secret-language-of-ships/
 * https://ln.hixie.ch/?start=1700627373&count=1 problems with Google today stem from a lack of visionary leadership, "Decisions went from being made for the benefit of users, to the benefit of Google, to the benefit of whoever was making the decision. Transparency evaporated" #vision
