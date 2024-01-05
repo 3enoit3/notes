@@ -29,7 +29,7 @@ Xmas break
 * https://garymarcus.substack.com/p/things-are-about-to-get-a-lot-worse copyright are easily broken: "animated sponge" #ai
 * https://fernandovillalba.substack.com/p/its-not-microservice-or-monolith team cognitive load capacity (one vs many) #architecture
 * https://lwn.net/Articles/955376/ the linux graphic stack #linux #architecture
-* https://ieeexplore.ieee.org/document/10372494 process quality (reviews/flakiness) -> code quality (readability/testability) -> system quality (defects/perf) -> product quality (usability/revenue) #software
+* https://ieeexplore.ieee.org/document/10372494 process quality (reviews/flakiness) -> code quality (readability/testability) -> system quality (defects/perf) -> product quality (usability/revenue); cyclomatic complexity a poor proxy of code quality #software
 * https://cacm.acm.org/magazines/2024/1/278891-10-things-software-developers-should-learn-about-learning/fulltext Experts Recognize, Beginners Reason #learning
 
 23/11/2023
