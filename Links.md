@@ -27,6 +27,10 @@ Xmas break
 * https://matklad.github.io/2023/12/31/git-things.html not rocket science rule: all tests green + new test to accept PR #git
 * https://www.inc.com/jeff-haden/27-years-ago-steve-jobs-said-best-employees-focus-on-content-not-process-workplace-research-shows-he-was-right.html focus on content (outcome), not process - get things done - take care of superstars #business
 * https://garymarcus.substack.com/p/things-are-about-to-get-a-lot-worse copyright are easily broken: "animated sponge" #ai
+* https://fernandovillalba.substack.com/p/its-not-microservice-or-monolith team cognitive load capacity (one vs many) #architecture
+* https://lwn.net/Articles/955376/ the linux graphic stack #linux #architecture
+* https://ieeexplore.ieee.org/document/10372494 process quality (reviews/flakiness) -> code quality (readability/testability) -> system quality (defects/perf) -> product quality (usability/revenue) #software
+* https://cacm.acm.org/magazines/2024/1/278891-10-things-software-developers-should-learn-about-learning/fulltext Experts Recognize, Beginners Reason #learning
 
 23/11/2023
 * https://jvns.ca/blog/2023/11/23/branches-intuition-reality/ git lets you do rebases “backwards” #git
