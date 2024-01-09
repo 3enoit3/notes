@@ -4,6 +4,14 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+09/01/2023
+* https://ggnotes.com/the-best-way-to-get-unstuck the way to escape stuckness is by taking action. #softskills
+* https://ggnotes.com/40-for-40---wisdom-i-want-to-remember Lead when nobody else wants to. #misc
+* https://medium.com/@ameet/strong-opinions-weakly-held-a-framework-for-thinking-6530d417e364 I will force myself to make a tentative forecast based on the information available, and then systematically tear it apart #softskills
+* https://blog.glowforge.com/strong-opinions-loosely-held-might-be-the-worst-idea-in-tech/ The loudest, most bombastic engineer states their case with certainty, and that shuts down discussion #softskills
+* https://newsletter.pnote.eu/p/simple-lasts-longer use browser cache instead of server #software
+* https://tonybaloney.github.io/posts/python-gets-a-jit.html JIT compiler, is a compiler that emits machine code #python
+
 04/01/2023
 * https://www.ricmedia.com/tutorials/build-a-raspberry-pi-nas-server#usb-flash raid 1 on raspberry pi #tools
 * https://github.com/tldraw/tldraw miro equivalent self hosted #tools
@@ -55,8 +63,6 @@ Xmas break
 * https://codemanship.wordpress.com/2023/11/20/the-bluffers-guide-to-the-mythical-man-month/ Value of Iteration: "software should be developed in stages, with each stage building on the previous one"; "Achieving conceptual integrity often involves a strong guiding hand, such as a chief architect" #software
 * https://www.vox.com/future-perfect/23965898/child-poverty-expanded-child-tax-credit-economy-welfare-phase-ins #misc
 * https://github.com/bitswired/rustgpt "the Axum framework combined with HTMX, providing a Rusty web development experience" + sqlite #rust
-
-21/11/2023
 * https://www.scu.edu/ethics/focus-areas/business-ethics/resources/seven-signs-of-ethical-collapse/ keep costs low; keep quality high; focus on customer service #business; We’re dependent on individuals saying, ‘No, we can’t do that,’ #business
 * https://sourcegraph.com/blog/zoekt-creating-internal-tools-at-google Taking the bull by the horns #tools
 * https://blog.matiaspan.dev/posts/exploring-dagger-streamlining-ci-cd-pipelines-with-code/ Dagger is a new tool that promises to fix the yaml and custom scripts mess that CI/CD currently is by building pipelines as code #devops
