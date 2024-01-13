@@ -4,6 +4,11 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+13/01/2023
+* https://nautil.us/the-magic-of-the-blackboard-487759/ the writing, the relay, and the rethink #softskills
+* https://github.com/aspen-cloud/triplit “full stack database” #db
+* https://rkyv.org/motivation.html directly referencing bytes in the serialized form #rust
+
 09/01/2023
 * https://ggnotes.com/the-best-way-to-get-unstuck the way to escape stuckness is by taking action. #softskills
 * https://ggnotes.com/40-for-40---wisdom-i-want-to-remember Lead when nobody else wants to. #misc
