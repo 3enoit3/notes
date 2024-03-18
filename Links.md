@@ -4,6 +4,9 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+18/03/2023
+* https://www.sheshbabu.com/posts/thoughts-on-the-future-of-software-development/
+
 09/01/2023
 * https://ggnotes.com/the-best-way-to-get-unstuck the way to escape stuckness is by taking action. #softskills
 * https://ggnotes.com/40-for-40---wisdom-i-want-to-remember Lead when nobody else wants to. #misc
