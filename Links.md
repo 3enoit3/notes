@@ -4,6 +4,11 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+22/05/2023
+* https://matthewstrom.com/writing/ui-density/ UI
+* https://swtch.com/%7Ersc/regexp/regexp1.html regex
+* https://breckyunits.com/scrollsets.html knowledge storing as text
+
 18/03/2023
 * https://www.sheshbabu.com/posts/thoughts-on-the-future-of-software-development/
 
