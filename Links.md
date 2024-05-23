@@ -4,6 +4,14 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+23/05/2024
+* https://amber-lang.com/ compiled as bash #shell
+
+22/05/2024
+* https://matthewstrom.com/writing/ui-density/ #ui
+* https://swtch.com/%7Ersc/regexp/regexp1.html #regex
+* https://breckyunits.com/scrollsets.html knowledge storing as text #db
+
 18/03/2024
 * https://www.sheshbabu.com/posts/thoughts-on-the-future-of-software-development/
 
