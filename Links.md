@@ -4,10 +4,15 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
-18/03/2023
+18/03/2024
 * https://www.sheshbabu.com/posts/thoughts-on-the-future-of-software-development/
 
-09/01/2023
+13/01/2024
+* https://nautil.us/the-magic-of-the-blackboard-487759/ the writing, the relay, and the rethink #softskills
+* https://github.com/aspen-cloud/triplit “full stack database” #db
+* https://rkyv.org/motivation.html directly referencing bytes in the serialized form #rust
+
+09/01/2024
 * https://ggnotes.com/the-best-way-to-get-unstuck the way to escape stuckness is by taking action. #softskills
 * https://ggnotes.com/40-for-40---wisdom-i-want-to-remember Lead when nobody else wants to. #misc
 * https://medium.com/@ameet/strong-opinions-weakly-held-a-framework-for-thinking-6530d417e364 I will force myself to make a tentative forecast based on the information available, and then systematically tear it apart #softskills
@@ -15,7 +20,7 @@ Sources
 * https://newsletter.pnote.eu/p/simple-lasts-longer use browser cache instead of server #software
 * https://tonybaloney.github.io/posts/python-gets-a-jit.html JIT compiler, is a compiler that emits machine code #python
 
-04/01/2023
+04/01/2024
 * https://www.ricmedia.com/tutorials/build-a-raspberry-pi-nas-server#usb-flash raid 1 on raspberry pi #tools
 * https://github.com/tldraw/tldraw miro equivalent self hosted #tools
 * https://liveplusplus.tech/ live c++ update and results #cpp #tools
