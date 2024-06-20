@@ -4,6 +4,10 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+20/06/2024
+* https://3tilley.github.io/posts/simple-ipc-ping-pong/ ipc udp/tcp vs shared memory #rust
+* https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/ #ai 
+
 23/05/2024
 * https://amber-lang.com/ compiled as bash #shell
 
