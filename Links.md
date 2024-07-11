@@ -4,6 +4,13 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+11/07/2024
+* https://github.com/lm-sys/RouteLLM select best model (cheap and low quality or expensive and high) depending on the query #ai
+* https://zed.dev/linux zed modern editor #ide
+* https://www.timdbg.com/posts/useless-x86-trivia/ #x86
+* https://santhoshsundar.medium.com/using-the-5s-principle-in-coding-6237a1614a02  Sort, Set in Order, Shine, Standardize, and Sustain. #software
+* https://garrettdbates.com/blog/software-architecture/why-use-onion-layering onion #architecture
+
 20/06/2024
 * https://3tilley.github.io/posts/simple-ipc-ping-pong/ ipc udp/tcp vs shared memory #rust
 * https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/ #ai 
