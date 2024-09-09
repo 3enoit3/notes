@@ -13,6 +13,7 @@ Sources
 * https://reclaim-the-stack.com/docs/kubernetes-platform/introduction open source implementation #kubernetes
 * https://www.humprog.org/~stephen/blog/2024/08/27/#how-to-wrap-cc-really hack into gcc #gcc
 * https://github.com/weinberg/SQLToy/wiki/Two-Key-Concepts sql implementation details #db
+* https://www.brightball.com/articles/story-points-are-pointless-measure-queues queues over story points #scrum
 
 11/07/2024
 * https://github.com/lm-sys/RouteLLM select best model (cheap and low quality or expensive and high) depending on the query #ai
