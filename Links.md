@@ -4,6 +4,16 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+09/09/2024
+* https://misinforeview.hks.harvard.edu/article/gpt-fabricated-scientific-papers-on-google-scholar-key-features-spread-and-implications-for-preempting-evidence-manipulation/ #ai
+* https://bernsteinbear.com/blog/fenster-microui/ small ui + small wm #ui
+* https://blog.trailofbits.com/2024/09/06/unstripping-binaries-restoring-debugging-information-in-gdb-with-pwndbg/ plugin for gdb with binary ninja #debug
+* https://conspirator0.substack.com/p/baiting-the-bot python code for ai in local #ai
+* https://luajit.org/luajit.html embedded lua just in time #script
+* https://reclaim-the-stack.com/docs/kubernetes-platform/introduction open source implementation #kubernetes
+* https://www.humprog.org/~stephen/blog/2024/08/27/#how-to-wrap-cc-really hack into gcc #gcc
+* https://github.com/weinberg/SQLToy/wiki/Two-Key-Concepts sql implementation details #db
+
 11/07/2024
 * https://github.com/lm-sys/RouteLLM select best model (cheap and low quality or expensive and high) depending on the query #ai
 * https://zed.dev/linux zed modern editor #ide
