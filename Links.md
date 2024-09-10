@@ -4,6 +4,18 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+10/09/2024
+* https://dl.acm.org/doi/10.1145/3589334.3645323 QUIC protocol optimized for TCP webapplication https://en.wikipedia.org/wiki/QUIC #network
+* https://blog.gitbutler.com/why-github-actually-won/ GitHub won because it started at the right time and it had good taste #git #business
+* https://avestura.dev/blog/creating-a-git-commit-the-hard-way git internals #git
+* https://blogsystem5.substack.com/p/windows-nt-vs-unix-design #os
+* https://fennel-lang.org/ lua + lisp #script
+* https://github.com/josephburnett/jd json diff #json
+* https://tookmund.com/2024/09/hibernation-preparation #linux
+* https://hnbooks.pieterma.es/ books #misc #ai
+* https://hdbscan.readthedocs.io/en/latest/ clustering of books in https://hnbooks.pieterma.es/ #ai
+* https://openlayers.org/ layers on maps #visualization
+
 09/09/2024
 * https://misinforeview.hks.harvard.edu/article/gpt-fabricated-scientific-papers-on-google-scholar-key-features-spread-and-implications-for-preempting-evidence-manipulation/ #ai
 * https://bernsteinbear.com/blog/fenster-microui/ small ui + small wm #ui
