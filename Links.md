@@ -4,6 +4,15 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+11/09/2024
+* https://antithesis.com/blog/multiverse_debugging/ debug by coming back 5s before the issue "Multiverse debugging" #debug
+* https://tech.marksblogg.com/extracting-osm-features.html geograhic database #ai
+* https://arxiv.org/abs/2403.18103 Tutorial on Diffusion Models for Imaging and Vision (math theory) #ai
+* https://en.wikipedia.org/wiki/Floral_formula notation for flower shapes #misc
+* https://github.com/dbcli/litecli nice sqlite client #database
+* https://buttondown.com/hillelwayne/archive/3866bd6e-22c3-4098-92ef-4d47ef287ed8 comments #software
+* https://buttondown.com/hillelwayne/archive/why-not-comments/ negative comment (why not) to explain trade off #software
+
 10/09/2024
 * https://dl.acm.org/doi/10.1145/3589334.3645323 QUIC protocol optimized for TCP webapplication https://en.wikipedia.org/wiki/QUIC #network
 * https://blog.gitbutler.com/why-github-actually-won/ GitHub won because it started at the right time and it had good taste #git #business
