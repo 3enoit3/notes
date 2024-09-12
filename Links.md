@@ -11,6 +11,7 @@ Sources
 * https://coredumped.dev/2024/09/09/what-is-the-best-pointer-tagging-method/ encoding information in pointer values #cpp
 * https://eugeneyan.com/writing/web-frameworks/ FastHTML Next.js SvelteKit #web
 * https://www.16elt.com/2024/09/07/future-proof-code/ How can I make it flexible without going overboard? #software
+* https://thesambarnes.com/leadership/gripes-go-up-not-down-a-leadership-lesson/ There’s a chain of command: gripes go up, not down #lead
 
 11/09/2024
 * https://antithesis.com/blog/multiverse_debugging/ debug by coming back 5s before the issue "Multiverse debugging" #debug
