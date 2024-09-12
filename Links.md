@@ -4,6 +4,14 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+12/09/2024
+* https://herbertlui.net/david-chang-on-the-long-hard-stupid-way/ teach someone to better themselves through their own personal integrity #software
+* https://gist.github.com/thoughtpolice/9c45287550a56b2047c6311fbadebed2 interdiff review (multiple commits) #git
+* https://netflixtechblog.com/noisy-neighbor-detection-with-ebpf-64b1f4b3bbdd ebpf overload #debug
+* https://coredumped.dev/2024/09/09/what-is-the-best-pointer-tagging-method/ encoding information in pointer values #cpp
+* https://eugeneyan.com/writing/web-frameworks/ FastHTML Next.js SvelteKit #web
+* https://www.16elt.com/2024/09/07/future-proof-code/ How can I make it flexible without going overboard? #software
+
 11/09/2024
 * https://antithesis.com/blog/multiverse_debugging/ debug by coming back 5s before the issue "Multiverse debugging" #debug
 * https://tech.marksblogg.com/extracting-osm-features.html geograhic database #ai
