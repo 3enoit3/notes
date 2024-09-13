@@ -4,6 +4,20 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+13/09/2024
+* https://www.youtube.com/watch?v=J_EehoXLbIU simple eBFP #debug
+* https://www.usenix.org/conference/srecon23apac/presentation/liang real eBFP debugging #debug
+* https://github.com/keisku/gmon monitoring go with eBFP #debug
+* https://blog.spiraldb.com/compressing-strings-with-fsst/ compression in rust #rust
+* https://duckdb.org/2022/10/28/lightweight-compression.html lightweight compression vs general #compression
+* https://fight-flash-fraud.readthedocs.io/en/latest/introduction.html test flash card #hardware
+* https://jina.ai/news/reader-lm-small-language-models-for-cleaning-and-converting-html-to-markdown clear web content #ai
+* https://github.com/mozilla/readability api to remove non readable content (header..) #web
+* https://rfd.shared.oxide.computer/rfd/0026 os review for virtualization (qemu risk, systemd risk) #os
+* https://larahogan.me/blog/be-a-thermostat-not-a-thermometer/ prevent over reaction to propagate (thermometers) by setting the room temperature (thermostat) #scrum
+* https://www.gtf.io/musings/why-haskell "A language that doesn’t affect the way you think about programming is not worth knowing. ~ Perlisism" #haskell
+* 
+
 12/09/2024
 * https://herbertlui.net/david-chang-on-the-long-hard-stupid-way/ teach someone to better themselves through their own personal integrity #software
 * https://gist.github.com/thoughtpolice/9c45287550a56b2047c6311fbadebed2 interdiff review (multiple commits) #git
