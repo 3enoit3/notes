@@ -16,7 +16,6 @@ Sources
 * https://rfd.shared.oxide.computer/rfd/0026 os review for virtualization (qemu risk, systemd risk) #os
 * https://larahogan.me/blog/be-a-thermostat-not-a-thermometer/ prevent over reaction to propagate (thermometers) by setting the room temperature (thermostat) #scrum
 * https://www.gtf.io/musings/why-haskell "A language that doesn’t affect the way you think about programming is not worth knowing. ~ Perlisism" #haskell
-* 
 
 12/09/2024
 * https://herbertlui.net/david-chang-on-the-long-hard-stupid-way/ teach someone to better themselves through their own personal integrity #software
