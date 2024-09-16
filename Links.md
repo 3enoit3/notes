@@ -4,6 +4,20 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+16/09/2024
+* https://www.techradar.com/news/ai-is-going-to-ruin-humanity-just-not-in-the-way-you-might-expect Google can make us smarter – ChatGPT won’t #ai
+* https://www.msn.com/en-gb/money/technology/we-re-witnessing-the-death-of-the-graphics-card-in-real-time-right-now-and-i-couldn-t-be-happier-about-it/ar-AA1qCttQ focus on ai instead of gamers #ai
+* https://simonwillison.net/2024/Sep/15/how-to-succeed-in-mrbeast-production/ C-Players are just average employees. […] They arn’t obsessive and learning #leadership
+* https://cs.pomona.edu/classes/cs181g/ game and rust #rust
+* https://peterszasz.com/how-to-lead-your-team-when-the-house-is-on-fire/ "Bias heavily toward action" + "Conducting regular architecture reviews to spot and address emerging issues" #leadership
+* https://newsletter.pragmaticengineer.com/p/paying-down-tech-debt It’s harder to read code than to write it #software
+* https://newsletter.pragmaticengineer.com/p/zirp-software-engineers end of zero interest rate policy (ZIRP) by central banks: pressure to achieve profitability, less venture capital funding, Big Tech getting bigger #economy
+* https://www.implicitcad.org/ cad with code #misc
+* https://lwn.net/Articles/990307/ 6.11 linux kernel: write to busy executable files, block drivers in Rust #os
+* https://www.raylib.com/ simple game engine #game
+* https://github.com/phil-opp/blog_os os in rust #rust
+* https://blog.yoshuawuyts.com/nesting-allocators/ nested rust allocators #rust
+  
 13/09/2024
 * https://www.youtube.com/watch?v=J_EehoXLbIU simple eBFP #debug
 * https://www.usenix.org/conference/srecon23apac/presentation/liang real eBFP debugging #debug
