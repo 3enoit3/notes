@@ -4,6 +4,17 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+17/09/2024
+* https://github.com/satmihir/fair protect shared resources in go #go
+* https://hurricanes2024.silurian.ai/#beryl/2024/07/02/0600Z/wind/surface/level/overlay=off/orthographic=-7.37,41.19,3000 weather simulation #misc
+* https://mango.pdf.zone/i-give-you-feedback-on-your-blog-post-draft-but-you-dont-send-it-to-me "The title gets read way more than the rest" + "Use more examples" #blog
+* https://news.ycombinator.com/item?id=41519046 "ping goodhost | sed -e 's/.*/ping/' | vocoder" he wandered through the building wiggling Ethernet connectors until the sound stopped #software
+* https://arcan-fe.com/2016/12/29/chasing-the-dream-of-a-terminal-free-cli/ command-line appl without restrictions of normal (terminal-emulator + sHell + application) #shell
+* https://ppml.dev/index.html in machine learning, https://www.jjinux.com/2015/07/the-waterfall-model-was-straw-man.htmltreat data as code (including tech debt) #ai
+* https://www.jjinux.com/2015/07/the-waterfall-model-was-straw-man.html Royce’s 1970 paper credited with “inventing” the waterfall model, actually to criticize it -> no one ever wrote a book that proposed it was a good model #software
+* https://franzelio.franzai.com/ draw lines to play music #misc
+* https://whattrainisitnow.com/ firefox 4 trains (Extended Support Release, release, beta, nightly) #software
+
 16/09/2024
 * https://www.techradar.com/news/ai-is-going-to-ruin-humanity-just-not-in-the-way-you-might-expect Google can make us smarter – ChatGPT won’t #ai
 * https://www.msn.com/en-gb/money/technology/we-re-witnessing-the-death-of-the-graphics-card-in-real-time-right-now-and-i-couldn-t-be-happier-about-it/ar-AA1qCttQ focus on ai instead of gamers #ai
