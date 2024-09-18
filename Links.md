@@ -11,7 +11,7 @@ Sources
 * https://github.com/voideditor/void open source copilot #ai
 * https://gwern.net/book-writing in love with the idea of having published a book, but not with publishing #writing
   
-* 17/09/2024
+17/09/2024
 * https://github.com/satmihir/fair protect shared resources in go #go
 * https://hurricanes2024.silurian.ai/#beryl/2024/07/02/0600Z/wind/surface/level/overlay=off/orthographic=-7.37,41.19,3000 weather simulation #misc
 * https://mango.pdf.zone/i-give-you-feedback-on-your-blog-post-draft-but-you-dont-send-it-to-me "The title gets read way more than the rest" + "Use more examples" #writing
