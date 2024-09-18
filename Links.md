@@ -4,10 +4,17 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
-17/09/2024
+18/09/2024
+* https://github.com/phiresky/ripgrep-all in PDFs, E-Books, Office documents, zip, tar.gz, etc. #tools
+* https://www.graalvm.org/python/ python in java #python
+* https://www.infinitepartitions.com/art001.html gzip format #compression
+* https://github.com/voideditor/void open source copilot #ai
+* https://gwern.net/book-writing in love with the idea of having published a book, but not with publishing #writing
+  
+* 17/09/2024
 * https://github.com/satmihir/fair protect shared resources in go #go
 * https://hurricanes2024.silurian.ai/#beryl/2024/07/02/0600Z/wind/surface/level/overlay=off/orthographic=-7.37,41.19,3000 weather simulation #misc
-* https://mango.pdf.zone/i-give-you-feedback-on-your-blog-post-draft-but-you-dont-send-it-to-me "The title gets read way more than the rest" + "Use more examples" #blog
+* https://mango.pdf.zone/i-give-you-feedback-on-your-blog-post-draft-but-you-dont-send-it-to-me "The title gets read way more than the rest" + "Use more examples" #writing
 * https://news.ycombinator.com/item?id=41519046 "ping goodhost | sed -e 's/.*/ping/' | vocoder" he wandered through the building wiggling Ethernet connectors until the sound stopped #software
 * https://arcan-fe.com/2016/12/29/chasing-the-dream-of-a-terminal-free-cli/ command-line appl without restrictions of normal (terminal-emulator + sHell + application) #shell
 * https://ppml.dev/index.html in machine learning, https://www.jjinux.com/2015/07/the-waterfall-model-was-straw-man.htmltreat data as code (including tech debt) #ai
