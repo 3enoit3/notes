@@ -4,6 +4,18 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+19/09/2024
+* https://github.com/rspeer/wordfreq/tree/master python frequent words in different languages #python
+* https://github.com/exaloop/codon Python compiles to native machine code #python
+* https://adam-mcdaniel.github.io/dune-website/ #shell
+* https://github.com/adam-mcdaniel/atom #shell
+* https://shikaan.github.io/assembly/x86/guide/2024/09/08/x86-64-introduction-hello.html assembler #hardware
+* https://knhash.in/gentle-guide-to-self-hosting/ self hosting software #blog
+* https://github.com/noperator/sol explain/edit one liner #shell
+* https://medium.com/google-cloud/interning-in-go-4319ea635002 interning is
+* https://en.wikipedia.org/wiki/Interning_(computer_science) re-using objects of equal value on-demand instead of creating new objects
+* https://github.com/rabbitmq/rabbitmq-server/releases/tag/v4.0.1 AMQP 1.0 is now a core protocol #ipc
+
 18/09/2024
 * https://github.com/phiresky/ripgrep-all in PDFs, E-Books, Office documents, zip, tar.gz, etc. #tools
 * https://www.graalvm.org/python/ python in java #python
