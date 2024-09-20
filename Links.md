@@ -4,6 +4,17 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+20/09/2024
+* https://github.com/dragostis/chili light parallelization in rust #rust
+* https://github.com/MightyMoud/sidekick VPS Virtual Private Servers in cloud #network
+* https://risk-engineering.org/concept/Rasmussen-practical-drift high complexity and tight coupling -> occasionally make large, unexpected “jumps” towards the boundary, when the organizational slack (buffering ability) is lower: operational slack “going solid” #risk
+* https://text.makeup/#%2B #unicode
+* https://arstechnica.com/gadgets/2024/09/real-time-linux-is-officially-part-of-the-kernel-after-decades-of-debate/ realtime patch in kernel #linux
+* https://edolstra.github.io/pubs/phd-thesis.pdf Nix thesis #devops
+* https://nix.dev/manual/nix/2.24/ each package has its own unique subdirectory + a hash of the package’s build dependency graph #devops
+* https://ittavern.com/visual-guide-to-ssh-tunneling-and-port-forwarding/ #network
+* https://wunkolo.github.io/post/2024/09/gpu-debug-scopes/ RAII in Rust with Drop trait #rust
+
 19/09/2024
 * https://github.com/rspeer/wordfreq/tree/master python frequent words in different languages #python
 * https://github.com/exaloop/codon Python compiles to native machine code #python
