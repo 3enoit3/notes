@@ -4,6 +4,32 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+23/09/2024
+* https://simpleicons.org free svg for software products #blog
+* http://www.mattmahoney.net/dc/text.html 200+ compression aglorithm compared: nncp / cmix first #compression
+* https://blog.jim-nielsen.com/2024/sanding-ui/ "rub your hand on wood after sanding" with clicking everywhere in the UI #ui
+* https://modern-json-schema.com/analyzing-the-openapi-tooling-ecosystem openapi pipeline: API (http parser -> data encoder -> data modeler -> report renderer) vs OAD #ai
+* https://personal.sron.nl/~pault/#fig:scheme_light nice color set for black text #visualization
+* https://www.nature.com/articles/d41586-024-02998-y local llm for privacy and tuning #ai
+* https://www.theregister.com/2024/09/18/open_source_maintainers_underpaid/ 60% unpaid hobbyist, weight of security tasks increases, lack of turnover
+  * industry security standards:
+    * the NIST Secure Software Development Framework (SSDF)
+    * the OpenSSF Scorecard -> highest awareness
+    * the Supply Chain Levels for Software Artifacts (SLSA) Framework
+    * the US Cybersecurity and Infrastructure Security Agency's (CISA) Secure by Design pledge.
+* https://en.wikipedia.org/wiki/XZ_Utils_backdoor JiaT75 campaigned for three years to get co-maintainer position to sign off backdoor version #opensource
+* https://socialcommunication.truman.edu/attitudes-emotions/social-initiation/ safe topic is the surrounding environment #social
+* https://github.com/Telemaco019/kubesafe Mark one or more contexts as "safe" and define a list of commands that require confirmation before execution #safety
+* https://github.com/rougier/scientific-visualization-book?tab=readme-ov-file Python + Matplotlib: color, ornaments, text #visualization
+* https://raymii.org/s/software/Logging_all_Cpp_destructors_poor_mans_run-time_tracing.html trigger a SIGTRAP to debug with gdb + gcc run time instrumentation on all function and find destructor names #debug
+* https://laike9m.com/blog/no-one-builds-in-public,160/ build in public: sharing your company’s story as it unfolds — with transparency, openness and vulnerability. #business
+* https://keleshev.com/compiling-to-assembly-from-scratch/ #assembler
+* https://classysoftware.io/chat-analysis/ hackernews sentiment analyzer #ai
+* https://github.com/PeepDB-dev/peepdb command line to quickly inspect database tables without writing SQL queries #database
+* https://github.com/cupy/cupy NumPy & SciPy for GPU #data
+* https://github.com/commaai/openpilot operating system for robotics: give auto driving to cars #ai
+* https://desosa.nl/projects/openpilot/2020/03/11/from-vision-to-architecture zeromq Pub-Sub for asynchronously communication in different language/platform/system + capnproto for encoding #software
+
 20/09/2024
 * https://github.com/dragostis/chili light parallelization in rust #rust
 * https://github.com/MightyMoud/sidekick VPS Virtual Private Servers in cloud #network
