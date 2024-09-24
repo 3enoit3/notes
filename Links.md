@@ -4,6 +4,13 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+24/09/2024
+* https://github.com/srush/GPU-Puzzles 1 thread per computation #gpu
+* https://chipsandcheese.com/2024/09/22/intels-redwood-cove-baby-steps-are-still-steps/ Intel’s mobile strategy, moving away from the monolithic designs #cpu
+* https://blogs.gentoo.org/mgorny/2024/09/23/overview-of-cross-architecture-portability-problems/ cross-architecture (int size) #crossplatform
+* https://simonwillison.net/2024/Sep/18/board-of-the-python-software-foundation/ consistently contributed quality patches without extensive rewrites, you may qualify for commit privileges and become a core developer of Python #software
+* https://www.fastly.com/ offer free bandwith to pyPI #python
+  
 23/09/2024
 * https://simpleicons.org free svg for software products #blog
 * http://www.mattmahoney.net/dc/text.html 200+ compression aglorithm compared: nncp / cmix first #compression
