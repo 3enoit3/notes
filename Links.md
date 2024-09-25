@@ -4,6 +4,20 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+25/09/2024
+* https://github.com/WinampDesktop/winamp sources #architecture
+* https://engineersneedart.com/blog/movefast/movefast.html Always Be Iterating #software
+* https://github.com/okhat/blog/blob/main/2024.09.impact.md Think two steps ahead ("A doesn't work yet, but when A will work, what will be the limitation?") and iterate fast. #research
+* https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124 more often invalid research when there is greater financial and other interest and prejudice #research
+* https://github.com/wolfpld/tracy real time tracing, nanosecond, cpu and gpu #debug
+* https://github.com/loggerhead/json4u?tab=readme-ov-file better json visualization #json
+* https://www.cnbc.com/2024/09/24/doj-accuses-visa-of-debit-network-monopoly-that-impacts-price-of-nearly-everything.html Visa+Mastercard $1 trillion #misc
+* https://www.newyorker.com/science/elements/the-quest-to-build-a-telescope-on-the-moon a cell phone on Pluto #misc
+* https://github.com/vshymanskyy/wasm2mpy C++/Rust -> wasm -> micropy #wasm
+* https://lwn.net/Articles/987548/
+* https://blogsystem5.substack.com/p/glibc-versions-runtime
+* https://www.makeartwithpython.com/blog/a-year-of-showing-up/
+
 24/09/2024
 * https://github.com/srush/GPU-Puzzles 1 thread per computation #gpu
 * https://chipsandcheese.com/2024/09/22/intels-redwood-cove-baby-steps-are-still-steps/ Intel’s mobile strategy, moving away from the monolithic designs #cpu
