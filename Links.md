@@ -4,6 +4,18 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+26/09/2024
+* https://github.com/cozis/blogtech minimal web server for a blog "I asked Reddit to hack me" #blog
+* https://haystackeditor.com/ An IDE built on top of an infinite canvas #ide
+* https://github.com/cle-b/httpdbg execute your program using the pyhttpdbg instead of python #python
+* https://github.com/C-Naoki/image-stitcher automatically searching for overlap region #image
+* https://github.com/capstone-engine/capstone disassembly framework #debug
+* https://github.com/ben-n93/SQL-tips-and-tricks Use a leading comma to separate fields + Use a dummy value in the WHERE clause #database
+* https://stevana.github.io/scheduling_threads_like_thomas_jefferson.html allocate seats to parties approximately in proportion to the number of votes received #cpu
+* https://www.jonashietala.se/blog/2024/09/25/why_i_still_blog_after_15_years/ I keep this blog for me to write, not necessarily for others to read. #blog
+* https://github.com/jgm/djot better commonmark's syntax complex and difficult to parse efficiently + new features #blog
+* https://wafris.org/blog/rearchitecting-for-sqlite SQLite does not compete with client/server databases. SQLite competes with fopen() #database
+
 25/09/2024
 * https://github.com/WinampDesktop/winamp sources #architecture
 * https://engineersneedart.com/blog/movefast/movefast.html Always Be Iterating #software
