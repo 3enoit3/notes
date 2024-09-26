@@ -15,6 +15,7 @@ Sources
 * https://www.jonashietala.se/blog/2024/09/25/why_i_still_blog_after_15_years/ I keep this blog for me to write, not necessarily for others to read. #blog
 * https://github.com/jgm/djot better commonmark's syntax complex and difficult to parse efficiently + new features #blog
 * https://wafris.org/blog/rearchitecting-for-sqlite SQLite does not compete with client/server databases. SQLite competes with fopen() #database
+* https://gist.github.com/rxaviers/7360908 github markdown #blog
 
 25/09/2024
 * https://github.com/WinampDesktop/winamp sources #architecture
@@ -26,9 +27,9 @@ Sources
 * https://www.cnbc.com/2024/09/24/doj-accuses-visa-of-debit-network-monopoly-that-impacts-price-of-nearly-everything.html Visa+Mastercard $1 trillion #misc
 * https://www.newyorker.com/science/elements/the-quest-to-build-a-telescope-on-the-moon a cell phone on Pluto #misc
 * https://github.com/vshymanskyy/wasm2mpy C++/Rust -> wasm -> micropy #wasm
-* https://lwn.net/Articles/987548/
-* https://blogsystem5.substack.com/p/glibc-versions-runtime
-* https://www.makeartwithpython.com/blog/a-year-of-showing-up/
+* https://lwn.net/Articles/987548/ :warning:
+* https://blogsystem5.substack.com/p/glibc-versions-runtime :warning:
+* https://www.makeartwithpython.com/blog/a-year-of-showing-up/ :warning:
 
 24/09/2024
 * https://github.com/srush/GPU-Puzzles 1 thread per computation #gpu
