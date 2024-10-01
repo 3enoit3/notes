@@ -30,6 +30,22 @@ Contains interesting links to read
 * https://discord.com/blog/how-discord-stores-trillions-of-messages The Rust Tokio ecosystem is a tremendous foundation for building a system on asynchronous I/O #rust
 * https://ekxide.io/blog/iceoryx2-0-4-release/ IPC
 * https://varlink.org/
+* https://drew.silcock.dev/blog/everything-you-need-to-know-about-python-3-13/ no more GIL #python
+* https://docs.google.com/document/d/18CXhDb1ygxg-YXNBJNzfzZsDFosB5e6BfnXLlejd9l0/edit?pli=1 biased reference counting, immortalization and deferred reference counting #python :warning:
+* https://github.com/microsoft/mimalloc balance many simultaneous demands, in swift and python #python
+* https://www.reuters.com/technology/artificial-intelligence/if-your-ai-seems-smarter-its-thanks-smarter-human-trainers-2024-09-28/ #ai
+* http://clikmedia.ca/LMM/sites/default/files/pdf/mangen_2012_lecture_sur_ecran_lecture_papier_comprehension.pdf  students who read texts in print scored significantly
+better on the reading comprehension test than students who read the texts digitally #misc
+* https://arxiv.org/pdf/2409.06203 2nd Party data is 1st Party data that two or more parties decide to share on a “private” basis #misc
+* https://repositories.lib.utexas.edu/server/api/core/bitstreams/c8cc4a4f-e641-462b-9a72-654e60f71485/content deliberate practice does indeed play a significant role in
+developing creativity #creativity
+* https://github.com/evanwashere/mitata benchmark tool #debug
+* https://www.theatlantic.com/ideas/archive/2024/09/legal-sports-gambling-was-mistake/679925/ harm of gambling legalization: domestic violence. #misc
+* https://erikbern.com/2024/09/27/its-hard-to-write-code-for-humans.html :warning:
+* https://www.ontestautomation.com/i-am-tired-of-ai/ :warning:
+* https://deepmind.google/discover/blog/how-alphachip-transformed-computer-chip-design/ :warning:
+* https://jackevans.bearblog.dev/refactoring-python-with-tree-sitter-jedi/ :warning:
+* https://crpgbook.wordpress.com/ old school #misc
 
 26/09/2024
 * https://github.com/cozis/blogtech minimal web server for a blog "I asked Reddit to hack me" #blog
