@@ -4,6 +4,33 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 
+Contains interesting links to read
+* 01/10/2024
+* 25/09/2024
+
+01/10/2024
+* https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/ NotebookLM generates a one-off custom podcast #ai
+* https://benn.substack.com/p/do-ai-companies-work  If the industry does keep building new models, the value of old models decays pretty quickly 
+* https://www.linkedin.com/pulse/openai-gives-you-next-aws-google-search-howie-xu/ the near-term opportunity is "Level 3 driving assistant" (CoPilot), NOT "Level 5 full self-driving" (AutoPilot) #ai
+  * to an expert, chat gpt answer is worse, but most people don't have access to experts: productivity boost   
+  * revolutions
+    * virtualization revolution is about being able to program the infrastructure
+    * serverless revolution is about being able to program the business logic without thinking about the infrastructure
+    * openai revolution is about getting business results without thinking about defining the detailed business logic a priori
+* https://ngrok.com/blog-post/how-we-built-ngroks-data-platform #architecture
+* https://ghuntley.com/fracture/ anything other than the official distribution of Visual Studio Code expose your company to legal risks #ide
+* https://afewthingz.com/browserbookmark use files for bookmark management #misc
+* https://github.com/mediar-ai/screenpipe record screen + audio 24/7 and offer ai extraction (sumup of the day, security...) #ai 
+* https://awala.network/ local proxy/cache #network
+* https://github.com/yellow-footed-honeyguide/facad nice icons in directory listing #shell
+* https://mundraub.org/map#z=6&lat=50.28231945008158&lng=10.72265625 public fruit #misc
+* https://jimmyhmiller.github.io/raised blog changed my life #blog
+* https://technology.riotgames.com/news/taxonomy-tech-debt :warning:
+* https://sohl-dickstein.github.io/2022/11/06/strong-Goodhart.html :warning:
+* https://discord.com/blog/how-discord-stores-trillions-of-messages The Rust Tokio ecosystem is a tremendous foundation for building a system on asynchronous I/O #rust
+* https://ekxide.io/blog/iceoryx2-0-4-release/ IPC
+* https://varlink.org/
+
 26/09/2024
 * https://github.com/cozis/blogtech minimal web server for a blog "I asked Reddit to hack me" #blog
 * https://haystackeditor.com/ An IDE built on top of an infinite canvas #ide
