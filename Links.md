@@ -3,14 +3,26 @@ Interesting links
 
 Sources
 * https://news.ycombinator.com/front
+* https://www.producthunt.com/
 
 Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+02/10/2024
+* https://wakatime.com/blog/67-bots-so-many-bots Did you know ChatGPT generated comments have a higher frequency of words like game-changer #ai
+* https://www.producthunt.com/ hackernews for products #learning
+* https://rpgadventures.io/post/comedy-theory My grandfather had (setup) the heart of a lion (common), and a lifetime ban from the Central Park Zoo (punch line) #misc
+* https://howtomarketagame.com/2021/11/01/dont-build-your-castle-in-other-peoples-kingdoms/ Your kingdom is a platform that you own #blog
+* https://github.com/sourcebot-dev/sourcebot on top of the powerful Zoekt search engine #tools
+* https://github.com/sourcegraph/zoekt index of all ngrams (n=3) in all files + search first&last trigram and check distance #tools
+* https://jakelazaroff.com/words/a-local-first-case-study/ every location is plotted on a map #misc
+* https://github.com/nianticlabs/venator run each detection rule as an independent job #tools
+* https://alexy.tech/posts/the-simple-guide-to-building-and-breaking-habits/ Motivation gets you started. Habit keeps you going #improve
+
 01/10/2024
 * https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/ NotebookLM generates a one-off custom podcast #ai
-* https://benn.substack.com/p/do-ai-companies-work  If the industry does keep building new models, the value of old models decays pretty quickly 
+* https://benn.substack.com/p/do-ai-companies-work  If the industry does keep building new models, the value of old models decays pretty quickly #ai
 * https://www.linkedin.com/pulse/openai-gives-you-next-aws-google-search-howie-xu/ the near-term opportunity is "Level 3 driving assistant" (CoPilot), NOT "Level 5 full self-driving" (AutoPilot) #ai
   * to an expert, chat gpt answer is worse, but most people don't have access to experts: productivity boost   
   * revolutions
