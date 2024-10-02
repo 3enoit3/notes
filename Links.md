@@ -37,7 +37,7 @@ Contains interesting links to read
 * https://github.com/yellow-footed-honeyguide/facad nice icons in directory listing #shell
 * https://mundraub.org/map#z=6&lat=50.28231945008158&lng=10.72265625 public fruit #misc
 * https://jimmyhmiller.github.io/raised blog changed my life #blog
-* https://technology.riotgames.com/news/taxonomy-tech-debt :warning:
+* https://technology.riotgames.com/news/taxonomy-tech-debt Contagion can be a developer’s worst enemy + turn contagion into a weapon by making your fix more contagious than the problem #techdebt
 * https://sohl-dickstein.github.io/2022/11/06/strong-Goodhart.html :warning:
 * https://discord.com/blog/how-discord-stores-trillions-of-messages The Rust Tokio ecosystem is a tremendous foundation for building a system on asynchronous I/O #rust
 * https://ekxide.io/blog/iceoryx2-0-4-release/ IPC
@@ -56,7 +56,7 @@ developing creativity #creativity
 * https://erikbern.com/2024/09/27/its-hard-to-write-code-for-humans.html :warning:
 * https://www.ontestautomation.com/i-am-tired-of-ai/ :warning:
 * https://deepmind.google/discover/blog/how-alphachip-transformed-computer-chip-design/ :warning:
-* https://jackevans.bearblog.dev/refactoring-python-with-tree-sitter-jedi/ :warning:
+* https://jackevans.bearblog.dev/refactoring-python-with-tree-sitter-jedi/ jedi.Script().rename(line=match.row + 1, column=match.column, new_name="db") #python
 * https://crpgbook.wordpress.com/ old school #misc
 
 26/09/2024
