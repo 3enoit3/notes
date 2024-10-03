@@ -4,10 +4,26 @@ Interesting links
 Sources
 * https://news.ycombinator.com/front
 * https://www.producthunt.com/
+* https://leaddev.com/
 
 Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
+
+03/10/2024
+* https://leaddev.com/process/introducing-engineering-metrics-your-organization DORA + Flow efficiency #metrics
+  * "When a measure becomes a target, it ceases to be a good measure.” – Goodhart's Law. 
+* https://leaddev.com/team/motivating-engineers-customer-outcomes “How does this enable the customer outcome?” + Give developers a reason to care #agile
+* https://leaddev.com/tech/best-feature-management-and-experimentation-software-2024 feature flag software for management and experimentation #tools
+* https://leaddev.com/team/are-dora-metrics-right-your-team throughput + stability #metrics
+* https://dora.dev/quickcheck/ #metrics
+* https://www.swarmia.com/blog/flow-efficiency/ percentage of time a task is active vs in progress #metrics
+  * Priority changes come with a cost
+* https://eaftan.github.io/hash-ordering/ randomize the iteration order, making it impossible for users to depend on it #api
+  * With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody. - Hyrum's Law
+*  https://github.com/Expensify/App/blob/main/contributingGuides/OFFLINE_UX.md Optimistic WITH Feedback Pattern: user knows the request is pending #ui
+*  https://github.com/tqwewe/kameo actor-based model on Tokio, sequential message for each actor #rust
+*  
 
 02/10/2024
 * https://wakatime.com/blog/67-bots-so-many-bots Did you know ChatGPT generated comments have a higher frequency of words like game-changer #ai
