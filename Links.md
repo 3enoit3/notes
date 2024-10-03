@@ -23,8 +23,10 @@ Contains interesting links to read
   * With a sufficient number of users of an API, it does not matter what you promise in the contract: all observable behaviors of your system will be depended on by somebody. - Hyrum's Law
 *  https://github.com/Expensify/App/blob/main/contributingGuides/OFFLINE_UX.md Optimistic WITH Feedback Pattern: user knows the request is pending #ui
 *  https://github.com/tqwewe/kameo actor-based model on Tokio, sequential message for each actor #rust
-*  
-
+*  https://justine.lol/mutex/ benchmark #optimisation
+*  https://github.com/google/nsync optimistic compare and swap (low overhead when free) + waiters semaphore on independent cache lines + futexes + no long starvation #multithread
+*  https://www.pixelstech.net/article/1727412048-Why-TCP-needs-3-handshakes can at least be confirmed that the connection is "basically usable."  (more wouldn't do better, less could allow invalid/expired connection on server) #network
+* https://www.zachdaniel.dev/p/serialization-is-the-secret #functional
 02/10/2024
 * https://wakatime.com/blog/67-bots-so-many-bots Did you know ChatGPT generated comments have a higher frequency of words like game-changer #ai
 * https://www.producthunt.com/ hackernews for products #learning
