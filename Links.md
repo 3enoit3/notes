@@ -27,6 +27,7 @@ Contains interesting links to read
 *  https://github.com/google/nsync optimistic compare and swap (low overhead when free) + waiters semaphore on independent cache lines + futexes + no long starvation #multithread
 *  https://www.pixelstech.net/article/1727412048-Why-TCP-needs-3-handshakes can at least be confirmed that the connection is "basically usable."  (more wouldn't do better, less could allow invalid/expired connection on server) #network
 * https://www.zachdaniel.dev/p/serialization-is-the-secret #functional
+
 02/10/2024
 * https://wakatime.com/blog/67-bots-so-many-bots Did you know ChatGPT generated comments have a higher frequency of words like game-changer #ai
 * https://www.producthunt.com/ hackernews for products #learning
