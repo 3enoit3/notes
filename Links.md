@@ -10,6 +10,19 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+04/10/2024
+* https://jvns.ca/blog/2024/10/01/terminal-colours/ contrast and control of colors #shell
+* https://ericnormand.me/article/the-heart-of-unix Functional (small functions) + universal data structure (text) + homoiconic (code is text which can be edited/manipulated by code) #shell
+  * limitations
+    * old file system: ACID properties, better metadata (permissions, owner/group, date, and filesize?)
+    * old terminal: limited edition (multiline), opaque to learn 
+    * flat text streams: failed to find a lever to help the Unix user master JSON/XML with the same synergy you see with flat text files.
+  * the root of unix: "Their individual work was multiplied by the synergy of a common interface"
+* https://defenderofthebasic.substack.com/p/anatomy-of-an-internet-argument "Signal that you are genuinely interested in understanding them, not attacking them" #improvement
+* https://technology.riotgames.com/news/determinism-league-legends-introduction re-play a recorded game and restore the server #software
+* https://www.neilbotelho.com/blog/multithreaded-async.html #python
+* http://www.lemis.com/grog/Documentation/Lions/index.php A commentary on the Sixth Edition UNIX Operating System #unix
+
 03/10/2024
 * https://leaddev.com/process/introducing-engineering-metrics-your-organization DORA + Flow efficiency #metrics
   * "When a measure becomes a target, it ceases to be a good measure.” – Goodhart's Law. 
