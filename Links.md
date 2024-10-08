@@ -20,7 +20,11 @@ Contains interesting links to read
 * https://backreference.org/2010/02/10/idiomatic-awk/ intersection between 2 files: $ awk 'NR == FNR{a[$0];next} $0 in a' file1.txt file2.txt #shell
 * https://interconnected.org/home/2024/09/27/distribution Moleskine notebooks have their own ISBN that fits into book vending machine automation #innovation
 * https://lareviewofbooks.org/article/weird-nonfiction/ #misc
-* 
+* https://dri.es/solving-the-maker-taker-problem Takers can turn Makers into Takers. #software
+* https://datavizcatalogue.com/search.html Sankey Diagrams display flows #visualization
+* https://www.linuxfromscratch.org/index.html build linux from source code #linux
+* https://github.com/mitoma/kashiki2 japanese ide on gpu #ide
+* https://softwareengineering.stackexchange.com/questions/69788/what-is-the-history-of-the-use-of-foo-and-bar-in-source-code-examples foo bar origins (Fucked Up Beyond All Recognition) #software
 
 04/10/2024
 * https://jvns.ca/blog/2024/10/01/terminal-colours/ contrast and control of colors #shell
