@@ -25,6 +25,11 @@ Contains interesting links to read
 * https://www.linuxfromscratch.org/index.html build linux from source code #linux
 * https://github.com/mitoma/kashiki2 japanese ide on gpu #ide
 * https://softwareengineering.stackexchange.com/questions/69788/what-is-the-history-of-the-use-of-foo-and-bar-in-source-code-examples foo bar origins (Fucked Up Beyond All Recognition) #software
+* https://www.dreamsongs.com/RiseOfWorseIsBetter.html :warning:
+* https://johncostella.com/magic/ image resizing algorithm #image
+* https://wasmer.io/posts/clang-in-browser wasm #wasm
+* https://wigle.net/ #misc
+* https://www.psytoolkit.org/experiment-library/experiment_multitasking.html :warning:
 
 04/10/2024
 * https://jvns.ca/blog/2024/10/01/terminal-colours/ contrast and control of colors #shell
