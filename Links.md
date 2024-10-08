@@ -19,7 +19,7 @@ Contains interesting links to read
 * https://ntietz.com/blog/rust-needs-a-web-framework-for-lazy-developers/ wish for alternative to heavy django for small things #rust
 * https://backreference.org/2010/02/10/idiomatic-awk/ intersection between 2 files: $ awk 'NR == FNR{a[$0];next} $0 in a' file1.txt file2.txt #shell
 * https://interconnected.org/home/2024/09/27/distribution Moleskine notebooks have their own ISBN that fits into book vending machine automation #innovation
-* https://lareviewofbooks.org/article/weird-nonfiction/ misc
+* https://lareviewofbooks.org/article/weird-nonfiction/ #misc
 * 
 
 04/10/2024
