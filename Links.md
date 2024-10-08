@@ -10,6 +10,18 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+08/10/2024
+* https://github.com/casey/just/ run project-specific commands, with a file justfile with syntax inspired by make #shell
+* https://sq.io/ swiss-army knife to inspect, query, join, import, and export data sqlite #database
+* https://hpyproject.org/ Python C API which makes as few assumptions as possible about the design decisions of any implementation of Python #python
+* https://starbasedb.com/blog/developing-acid-transaction-support-in-starbasedb/ ACID via HTTP over sqlite #database
+* https://github.com/antonio-morales/Fuzzing101 learn to fuzz #testing
+* https://ntietz.com/blog/rust-needs-a-web-framework-for-lazy-developers/ wish for alternative to heavy django for small things #rust
+* https://backreference.org/2010/02/10/idiomatic-awk/ intersection between 2 files: $ awk 'NR == FNR{a[$0];next} $0 in a' file1.txt file2.txt #shell
+* https://interconnected.org/home/2024/09/27/distribution Moleskine notebooks have their own ISBN that fits into book vending machine automation #innovation
+* https://lareviewofbooks.org/article/weird-nonfiction/ misc
+* 
+
 04/10/2024
 * https://jvns.ca/blog/2024/10/01/terminal-colours/ contrast and control of colors #shell
 * https://ericnormand.me/article/the-heart-of-unix Functional (small functions) + universal data structure (text) + homoiconic (code is text which can be edited/manipulated by code) #shell
