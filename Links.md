@@ -18,6 +18,23 @@ Contains interesting links to read
 * https://blog.mapotofu.org/blogs/rabitq-bench/ profiling with "[profile.perf]" in cargo #rust
 * https://foreignpolicy.com/2021/11/27/pepsi-navy-soviet-ussr/ In 1989, PepsiCo Inc., the maker of Pepsi, acquired 17 submarines, a cruiser, a frigate, and a destroyer from the Soviet Union #misc
 * https://restic.net/ backup #tools
+* https://github.com/3b1b/manim explanatory math videos #visualization
+* https://gwolf.org/2024/10/started-a-guide-to-writing-fuse-filesystems-in-python.html 
+* https://en.wikipedia.org/wiki/Filesystem_in_Userspace Filesystem in Userspace (compatibility, remote, memory..) #disk
+* https://www.erlang-solutions.com/blog/why-do-systems-fail-tandem-nonstop-system-and-fault-tolerance/ distributed system #reliability
+* https://www.nurdlepatrol.org/app/ plastic pellet in oceans #misc
+* https://github.com/Stengo/DeskPad virtual monitor for screen sharing #tools
+* https://thecopenhagenbook.com/ web auth #security
+* https://htmlforpeople.com/ tutorial #web
+* https://100r.co/site/uxn.html simplest virtual machine (https://wiki.xxiivv.com/etc/uxnmin.c.txt) #misc
+* https://roborooter.com/post/wasm-is-the-new-cgi/ shift in web #wasm
+* https://gieseanw.wordpress.com/2024/10/09/how-to-make-product-give-a-shit-about-your-architecture-proposal/ "never back down on quality" + "Sell that platinum package" #software
+* https://en.wikipedia.org/wiki/Project_management_triangle quality in the middle of triangle scope-time-cost #software
+* http://number-none.com/blow/blog/programming/2014/09/26/carmack-on-inlined-code.html "If the work is close to purely functional, with few references to global state, try to make it completely functional." #software
+* https://luckymike.dev/posts/warm-handoffs/ “If someone asks you a question you can’t answer, take them to someone who can answer it. If you don’t know who that is, help find someone who can.” #agile
+* https://entropicthoughts.com/practices-of-reliable-software-design keep things small "It is much easier to add features to reliable software, than it is to add reliability to featureful software." #software
+* https://entropicthoughts.com/build-vs-buy "High cost, tightly integrated, and difficult to design? Build, don’t buy. Everything else? Buy." #software
+* https://otterwiki.com/ A minimalistic wiki powered by Python, Markdown and git #blog
 
 08/10/2024
 * https://github.com/casey/just/ run project-specific commands, with a file justfile with syntax inspired by make #shell
