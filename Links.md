@@ -10,6 +10,15 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+14/10/2024
+* https://diamond-wm.github.io/ simulated CSGO #ai
+* https://billwear.github.io/art-of-attention.html "much of what occupies our thoughts is unnecessary" + "life is is an experience to be lived" #wellbeing
+* https://academic.oup.com/pnasnexus/article/3/9/pgae400/7754871?login=false "with 6 months of ChatGPT’s release, activity on Stack Overflow decreased by 25%" + "rapid adoption of LLMs reduces the production of public data needed to train them" #ai
+* https://replicate.com/blog/flux-is-fast-and-open-source fast image generation #ai
+* https://blog.mapotofu.org/blogs/rabitq-bench/ profiling with "[profile.perf]" in cargo #rust
+* https://foreignpolicy.com/2021/11/27/pepsi-navy-soviet-ussr/ In 1989, PepsiCo Inc., the maker of Pepsi, acquired 17 submarines, a cruiser, a frigate, and a destroyer from the Soviet Union #misc
+* https://restic.net/ backup #tools
+
 08/10/2024
 * https://github.com/casey/just/ run project-specific commands, with a file justfile with syntax inspired by make #shell
 * https://sq.io/ swiss-army knife to inspect, query, join, import, and export data sqlite #database
