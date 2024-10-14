@@ -35,6 +35,8 @@ Contains interesting links to read
 * https://entropicthoughts.com/practices-of-reliable-software-design keep things small "It is much easier to add features to reliable software, than it is to add reliability to featureful software." #software
 * https://entropicthoughts.com/build-vs-buy "High cost, tightly integrated, and difficult to design? Build, don’t buy. Everything else? Buy." #software
 * https://otterwiki.com/ A minimalistic wiki powered by Python, Markdown and git #blog
+* https://www.stsci.edu/~jordan/other/ALSD.html "Engineering is done with numbers. Analysis without numbers is only an opinion." #software
+  * "A bad design with a good presentation is doomed eventually. A good design with a bad presentation is doomed immediately."
 
 08/10/2024
 * https://github.com/casey/just/ run project-specific commands, with a file justfile with syntax inspired by make #shell
