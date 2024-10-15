@@ -10,6 +10,17 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+15/10/2024
+* https://busy.bar/?hn funny office tool #office
+* https://gist.github.com/dannguyen/faaa56cebf30ad51108a9fe4f8db36d8 users specify the fields of extracted data, and guarantees that the JSON output will follow that specification #ai
+* https://github.com/urin/vscode-web-visual-editor wysiwyg #html
+* https://blog.lohr.dev/embedded-rust no known bugs #rust
+* https://docs.esp-rs.org/book/overview/using-the-standard-library.html Abstraction traits for embedded services (WiFi, Network, Httpd, Logging, etc.) #rust
+* https://tweedegolf.nl/en/blog/101/are-we-embedded-yet thanks to its direct access to both hardware and memory, Rust is well suited for embedded systems and bare-metal development #rust
+* https://blog.lohr.dev/after-a-day-of-programming-in-zig Zig is to C what Rust to C++ is #zig
+* https://seo-hacker.com/hacker/ the hacker way (continuous improvement and iteration) + move fast + be bold + be open + build social value #software
+* https://jsomers.net/blog/gettiers a "gettier" is a justified (from evidence) true belief (a proposition in your head) -> believing in the wrong cause #software
+
 14/10/2024
 * https://diamond-wm.github.io/ simulated CSGO #ai
 * https://billwear.github.io/art-of-attention.html "much of what occupies our thoughts is unnecessary" + "life is is an experience to be lived" #wellbeing
