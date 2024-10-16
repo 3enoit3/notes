@@ -10,6 +10,15 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+16/10/2024
+* https://github.com/shedskin/shedskin Python 3 programs into optimized C++; very cool doom demo #python
+* https://browser.engineering/index.html web browser internals #web
+* https://digital-naturalism-laboratories.github.io/Mothbox/ ai to recognise moths #ai
+* https://mermaid-ascii.art/ ascii schema #visualization
+* https://github.com/asterinas/asterinas linux kernel in rust, focusing on x86-64 VMs first for cloud market #rust
+* https://mused.com/guided/302/margarita-tomb/ very impressive 3d scans #visualization
+* https://www.elidourado.com/p/airship-industries Jim started a spreadsheet .. through all the systems .. put cost and performance bounds #business
+
 15/10/2024
 * https://busy.bar/?hn funny office tool #office
 * https://gist.github.com/dannguyen/faaa56cebf30ad51108a9fe4f8db36d8 users specify the fields of extracted data, and guarantees that the JSON output will follow that specification #ai
