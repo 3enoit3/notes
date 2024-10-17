@@ -10,6 +10,17 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+17/10/2024
+* https://graphite.rs/ procedural toolbox for 2D #visualization
+* https://docs.sweeting.me/s/archivebox-plugin-ecosystem-announcement# different tools to scrape internet (yt, galleries, papers, epub...) #tools
+* https://gist.github.com/jackrusher/5139396 introduction #lisp
+* https://nabeelqu.substack.com/p/reflections-on-palantir 10 minutes interview, random question orthogonal to anything they would be doing, how they disaggregate the question, if they appreciate how many different ways there are to see the same thing #business 
+* https://github.com/tzador/makedown?tab=readme-ov-file Makefile + Markdown: multiple scripts in one file next to their documentation + way to run them from terminal #shell
+* https://www.sievedata.com/functions/sieve/eye-contact-correction high-quality eye contact correction API #images
+* https://repromptai.com/blog/cofounder-mode-tactical-guide-finding-cofounder 50 Cofounder Dating questions #business
+* https://floss.fund/blog/announcing-floss-fund/ a profitable business should allocate a tiny fraction of its profits to support the projects it is directly reliant on #open-source
+* https://phys.org/news/2022-10-solar-gravitational-lens-humanity-powerful.html a resolution of about 10 square kilometers for objects 100 light-years away #misc
+
 16/10/2024
 * https://github.com/shedskin/shedskin Python 3 programs into optimized C++; very cool doom demo #python
 * https://browser.engineering/index.html web browser internals #web
