@@ -7,6 +7,7 @@ Sources
 * https://leaddev.com/
 
 Contains interesting links to read
+* 18/10/2024
 * 01/10/2024
 * 25/09/2024
 
