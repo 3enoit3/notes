@@ -10,6 +10,15 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+18/10/2024
+* https://www.creativebloq.com/design/adobes-new-image-rotation-tool-is-one-of-the-most-impressive-ai-concepts-weve-seen 3D rotation of 2D images #ai
+* https://ading.dev/blog/posts/chrome_sandbox_escape.html javascript sandbox #security
+* https://www.thecoder.cafe/p/unit-tests-as-documentation Unit tests are always in sync with the code #software
+* https://www.infoq.com/articles/cell-based-architecture-distributed-systems/ :warning:
+* https://www.sjsu.edu/faculty/watkins/5thgen.htm :warning:
+* https://github.com/microsoft/openvmm Virtual Machine Monitor VMM #rust
+* https://techcommunity.microsoft.com/t5/windows-os-platform-blog/openhcl-the-new-open-source-paravisor/ba-p/4273172 #virtualization :warning:
+
 17/10/2024
 * https://graphite.rs/ procedural toolbox for 2D #visualization
 * https://docs.sweeting.me/s/archivebox-plugin-ecosystem-announcement# different tools to scrape internet (yt, galleries, papers, epub...) #tools
