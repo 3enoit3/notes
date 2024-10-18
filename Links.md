@@ -16,7 +16,7 @@ Contains interesting links to read
 * https://ading.dev/blog/posts/chrome_sandbox_escape.html javascript sandbox #security
 * https://www.thecoder.cafe/p/unit-tests-as-documentation Unit tests are always in sync with the code #software
 * https://www.infoq.com/articles/cell-based-architecture-distributed-systems/ :warning:
-* https://www.sjsu.edu/faculty/watkins/5thgen.htm :warning:
+* https://www.sjsu.edu/faculty/watkins/5thgen.htm can make mistakes in predicting what technologies will be important in the future #software
 * https://github.com/microsoft/openvmm Virtual Machine Monitor VMM #rust
 * https://techcommunity.microsoft.com/t5/windows-os-platform-blog/openhcl-the-new-open-source-paravisor/ba-p/4273172 #virtualization :warning:
 
