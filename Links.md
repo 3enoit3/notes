@@ -11,6 +11,14 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+25/10/2024
+* https://github.com/aartaka/pretty.c scripting on top of c #scripts
+* https://www.circle-lang.org/draft-profiles.html Why C++ Safety Profiles Failed "existing C++ source code already contains sufficient information." #cpp
+* https://technology.riotgames.com/news/peeking-valorants-netcode distributed algorithms #network
+* https://jacko.io/async_intro.html Async Rust in Three Parts #rust
+* https://seismic-explorer.concord.org/ depth in 3D #visualization
+* https://lilymara.xyz/posts/2024/01/transit-kindle/ jailbreak kindle to put image #kindle 
+
 18/10/2024
 * https://www.creativebloq.com/design/adobes-new-image-rotation-tool-is-one-of-the-most-impressive-ai-concepts-weve-seen 3D rotation of 2D images #ai
 * https://ading.dev/blog/posts/chrome_sandbox_escape.html javascript sandbox #security
