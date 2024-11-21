@@ -71,5 +71,9 @@ git remote -v
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
 
 # Generate ssh key
-ssh-keygen -t rsa -C "your_email@youremail.com"
+ssh-keygen -t ed25519 -C "your_email@youremail.com"
+
+# Use the right key (git push will use the first known key as identity)
+ssh-add -D
+ssh-add ~/.ssh/id_ed25519...
 ````
