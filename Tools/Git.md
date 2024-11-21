@@ -62,11 +62,14 @@ git tag <tagname>
 # Push
 git push origin <tagname>
 ```
-## Remote
+## SSH
 ```bash
 # See remotes
 git remote -v
 
 # Change remote for ssh
 git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+
+# Generate ssh key
+ssh-keygen -t rsa -C "your_email@youremail.com"
 ````
