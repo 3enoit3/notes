@@ -11,6 +11,15 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+07/01/2025
+* https://slate.com/life/2024/12/work-jobs-sales-telemarketing-america.html "If you make them feel good, they’ll say yes" #misc
+* https://github.com/serengil/deepface light weight face recognition #ai
+* https://gustedt.wordpress.com/2025/01/06/simple-defer-ready-to-use/ inline finally for C and C++ #cpp
+* https://repository.upenn.edu/entities/publication/72ca3499-c5f6-4fc1-b5a3-9d66d8dd534e (/derived) generators are converting random into data structure #testing
+* https://www.mashups.io/ create data source pipeline #tools
+* https://r0bk.github.io/killedbyllm/ problems solved by llm #ai
+* https://unixism.net/loti/what_is_io_uring.html#what-is-io-uring asynch io tasks via 2 queues shared between kernel and user space (request, done) #linux
+
 25/10/2024
 * https://github.com/aartaka/pretty.c scripting on top of c #scripts
 * https://www.circle-lang.org/draft-profiles.html Why C++ Safety Profiles Failed "existing C++ source code already contains sufficient information." #cpp
