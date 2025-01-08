@@ -11,6 +11,17 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+08/01/2025
+* https://nicholas.carlini.com/writing/2025/regex-chess.html regex assembly/cpu #computing
+* https://crawshaw.io/blog/programming-with-llms "Chat-based LLMs do best with exam-style questions" "Avoid creating a situation with so much complexity and ambiguity that the LLM gets confused" + "Ask for work that is easy to verify" #ai
+* https://wiredream.com/llm-optimizing-digit-diff/ "Parallelize this code using rayon" #ai #rust
+* https://minimaxir.com/2025/01/write-better-code/ Repeatedly prompting "write better code" works "kinda, maybe, up to a point" #ai
+* https://www.seangoedecke.com/large-established-codebases/ "By far the most important thing is consistency", "Don’t expect to be able to test every case - instead, rely on monitoring" #software
+  * "You must resist the urge to make your little corner of the codebase nicer than the rest of it."
+* https://dillonshook.com/laid-off/ 45 applications for 2 offers, ref "I try to focus on the process, not the outcome." #misc
+* https://cruciallearning.com/blog/retaking-your-pen-learning-to-author-your-worth "Think of your “pen” as the power to define your worth" #misc
+  * https://learning.oreilly.com/library/view/crucial-conversations-tools/9781260474190/ the book #misc
+ 
 07/01/2025
 * https://slate.com/life/2024/12/work-jobs-sales-telemarketing-america.html "If you make them feel good, they’ll say yes" #misc
 * https://github.com/serengil/deepface light weight face recognition #ai
