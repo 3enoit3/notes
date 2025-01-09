@@ -11,6 +11,13 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+09/01/2025
+* https://operating-system-in-1000-lines.vercel.app/en/ #computing
+* https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/ #hacking
+* https://blogs.igalia.com/mrego/servo-revival-2023-2024/ mozilla in rust #rust
+* https://jerf.org/iri/post/2025/programming_language_ideas/ #software
+* https://www.seangoedecke.com/ratchet-effects/ "When you join a new company, focus on shipping small pieces of work in order to build reputation" #misc
+
 08/01/2025
 * https://nicholas.carlini.com/writing/2025/regex-chess.html regex assembly/cpu #computing
 * https://crawshaw.io/blog/programming-with-llms "Chat-based LLMs do best with exam-style questions" "Avoid creating a situation with so much complexity and ambiguity that the LLM gets confused" + "Ask for work that is easy to verify" #ai
