@@ -20,12 +20,9 @@ Contains interesting links to read
 * https://www.kenney.nl/assets #game
 * https://blog.yossarian.net/2025/01/10/Be-aware-of-the-Makefile-effect "Instead of writing a Makefile, the engineer copies a previous Makefile" #software
 * https://peisik.untergrund.net/rendering_a_new_world_awaits/
-  * All of us who do creative work, we get into it because we have good taste.
-  * But there is this gap. For the first couple years you make stuff, it’s just not that good.
-  * It’s trying to be good, it has potential, but it’s not.
-  * But your taste, the thing that got you into the game, is still killer.
-  * And your taste is why your work disappoints you.
-  * A lot of people never get past this phase, they quit"
+  * All of us who do creative work, we get into it because we have good taste. But there is this gap. For the first couple years you make stuff, it’s just not that good.
+  * It’s trying to be good, it has potential, but it’s not. But your taste, the thing that got you into the game, is still killer.
+  * And your taste is why your work disappoints you. A lot of people never get past this phase, they quit"
   
 09/01/2025
 * https://operating-system-in-1000-lines.vercel.app/en/ #computing
