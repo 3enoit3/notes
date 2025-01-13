@@ -11,6 +11,14 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+13/01/2025
+* https://matt.might.net/articles/phd-school-in-pictures/?_nospa=true visual representation of human knowledge and phd #misc
+* https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world "build-measure-learn" + "hypothesis generation" #software
+* https://www.jamesshore.com/v2/blog/2024/update-on-software-engineering-career-ladder tech lead "Assess technical/interpersonal/product skills, Technical interview" + "Calm the flames, Ignite the spark" #software
+* https://www.jamesshore.com/v2/projects/nullables/a-light-introduction-to-nullables no mock #test
+* https://sunshowers.io/posts/nextest-process-per-test/ pros and cons of testing per process #test
+* https://www.kenney.nl/assets #game
+  
 09/01/2025
 * https://operating-system-in-1000-lines.vercel.app/en/ #computing
 * https://krebsonsecurity.com/2025/01/a-day-in-the-life-of-a-prolific-voice-phishing-crew/ #hacking
