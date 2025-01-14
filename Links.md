@@ -11,6 +11,15 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+14/01/2025
+* https://www.downtowndougbrown.com/2024/04/why-is-my-cpu-usage-always-100-upgrading-my-chumby-8-kernel-part-9/ debugging 100% cpu #linux
+* https://dwheeler.com/essays/debugging-agans.html types #debug
+* https://www.hardbreak.wiki/ introduction to hardware #hardware
+* https://paulgraham.com/woke.html "A self-righteously moralistic person who behaves as if superior to others." #misc
+* https://www.latent.space/p/2025-papers sources #ai
+* https://thefreemovie.buzz/ #misc
+* https://doompdf.pages.dev/doom.pdf #misc
+
 13/01/2025
 * https://matt.might.net/articles/phd-school-in-pictures/?_nospa=true visual representation of human knowledge and phd #misc
 * https://www.jamesshore.com/v2/blog/2025/the-best-product-engineering-org-in-the-world "build-measure-learn" + "hypothesis generation" #software
