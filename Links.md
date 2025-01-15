@@ -11,6 +11,13 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+15/01/2025
+* https://mitxela.com/projects/fluid-pendant #misc
+* https://philipotoole.com/how-is-rqlite-tested/ test pyramid example #test
+* https://www.dgt.is/blog/2025-01-10-nix-death-by-a-thousand-cuts/ good, bad, ugly of nix #tools
+* https://newsletter.goodtechthings.com/p/why-are-tech-people-suddenly-so-into homeschooling #misc
+* https://docs.marimo.io/guides/publishing/playground/#embedding-an-existing-notebook-in-read-only-mode wasm python playground #wasm
+
 14/01/2025
 * https://www.downtowndougbrown.com/2024/04/why-is-my-cpu-usage-always-100-upgrading-my-chumby-8-kernel-part-9/ debugging 100% cpu #linux
 * https://dwheeler.com/essays/debugging-agans.html types #debug
