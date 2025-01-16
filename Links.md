@@ -11,6 +11,11 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+16/01/2025
+* https://grantslatton.com/nobody-cares "When I joined my former Big Tech job, everyone cared. Over time, incentives attracted a different set of people who didn't care as much. Eventually those people became the majority" #misc
+* https://github.com/cessen/ropey text-buffer for applications such as text editors #rust
+* https://sakana.ai/transformer-squared/ adjust weights #ai
+
 15/01/2025
 * https://mitxela.com/projects/fluid-pendant #misc
 * https://philipotoole.com/how-is-rqlite-tested/ test pyramid example #test
