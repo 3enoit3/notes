@@ -11,6 +11,9 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+20/01/2025
+* https://www.fuzzingbook.org/ fuzzy #tests
+
 16/01/2025
 * https://grantslatton.com/nobody-cares "When I joined my former Big Tech job, everyone cared. Over time, incentives attracted a different set of people who didn't care as much. Eventually those people became the majority" #misc
 * https://github.com/cessen/ropey text-buffer for applications such as text editors #rust
