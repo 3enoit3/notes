@@ -11,6 +11,19 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+21/01/2025
+* https://www.qovery.com/blog/rust-investigating-a-strange-out-of-memory-error/ debugging #rust
+* https://build-your-own.org/blog/20251015_db_in_3000/ "append-only log with a checksum for each item" #db
+* https://blog.gitbutler.com/why-is-git-autocorrect-too-fast-for-formula-one-drivers/ Levenshtein distance algorithm #git
+* https://andymasley.substack.com/p/individual-ai-use-is-not-bad-for #ai
+* https://charleshughsmith.substack.com/p/is-the-world-becoming-uninsurable #misc
+* https://blog.cryptographyengineering.com/2025/01/17/lets-talk-about-ai-and-end-to-end-encryption/ #ai
+* https://cceckman.com/writing/branchless-utf8-encoding/ #optimization
+* https://lwn.net/Articles/1003780/ "Code written in Rust will land in the kernel at an increasing rate" #kernel
+* https://rdel.substack.com/p/rdel-75-how-do-interruptions-impact #health
+* https://martinfowler.com/bliki/TwoHardThings.html "There are only two hard things in Computer Science: cache invalidation and naming things." #software
+* https://josef.cn/blog/uk-talent #business
+
 20/01/2025
 * https://www.fuzzingbook.org/ fuzzy #tests
 
