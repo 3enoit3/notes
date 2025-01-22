@@ -11,6 +11,12 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+22/01/2025
+* https://ssno.cc/posts/reversing-tac-1-4-2025/ anti-cheat #kernel
+* https://www.vincentschmalbach.com/startup-winter-hacker-news-lost-its-faith/ the mythology around startups has frozen over: "The low-hanging fruit of the mobile/web era has largely been picked, making truly innovative opportunities harder to find" #business
+* https://www.mattkeeter.com/blog/2025-01-20-guided/ "Statically proving the absense of panics" + fuzz testing #rust
+* https://wiki.xxiivv.com/site/uxn.html "Uxn's has no registers, no undefined behaviors, and cannot error" #cpu
+
 21/01/2025
 * https://www.qovery.com/blog/rust-investigating-a-strange-out-of-memory-error/ debugging #rust
 * https://build-your-own.org/blog/20251015_db_in_3000/ "append-only log with a checksum for each item" #db
