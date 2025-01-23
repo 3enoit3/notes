@@ -11,6 +11,15 @@ Contains interesting links to read
 * 01/10/2024
 * 25/09/2024
 
+23/01/2025
+* https://v5.chriskrycho.com/journal/essence-of-successful-abstractions/ "Complexity has to live somewhere" #rust
+  * "Whether with Rust or with a garbage collector, isolating the temporal and spatial safety means we don’t have to keep it in our heads most of the time, and that allows us to focus on other problems"
+  * "the combination of the borrow checker and the isolation that unsafe offers does allow us to control the complexity. We cannot get rid of it. We can only isolate it"
+  * "Rust’s borrow checking opens that door to many more people, because it has isolated that complexity, and thereby provided a more usable tool."
+* https://rustle.ca/posts/articles/work-from-home-lighting "Even the perfect lighting environment will fatigue you — take breaks, and take care of yourself" #misc
+* https://letsnotdothat.com/ PO joke #scrum
+* https://www.edgedb.com/blog/c-stdlib-isn-t-threadsafe-and-even-safe-rust-didn-t-save-us getenv and setenv are not thread safe #cpp
+
 22/01/2025
 * https://ssno.cc/posts/reversing-tac-1-4-2025/ anti-cheat #kernel
 * https://www.vincentschmalbach.com/startup-winter-hacker-news-lost-its-faith/ the mythology around startups has frozen over: "The low-hanging fruit of the mobile/web era has largely been picked, making truly innovative opportunities harder to find" #business
