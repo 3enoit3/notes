@@ -7,7 +7,6 @@ Sources
 * https://leaddev.com/
 
 Contains interesting links to read
-* 21/02/2025 https://www.scattered-thoughts.net/writing/speed-matters/
 * 18/10/2024
 * 01/10/2024
 * 25/09/2024
@@ -15,6 +14,7 @@ Contains interesting links to read
 21/02/2025
 * https://github.com/OpenRakis/Spice86 the emulator dump data on each run, gradually reimplementing the assembly code with C# #debug
 * https://www.scattered-thoughts.net/writing/speed-matters/ #software
+* https://tonsky.me/blog/icfpc-2021/ invest in tools (visualizer) #software
 * https://kanenarraway.com/posts/ai-killed-the-tech-interview-now-what/ #job
 
 23/01/2025
